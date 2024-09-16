@@ -1,10 +1,10 @@
 # Project Name
 
-Developer Names:
+Developer Names: Richard Fan, Kyle D'Souza, Mitchell Hynes, Akshit Gulia, Rafeed Iqbal
 
-Date of project start:
+Date of project start: Sept 16, 2024
 
-This project is ...
+This project is a documentation management system for the City of Hamilton PMATS
 
 The folders and files for this project are as follows:
 
