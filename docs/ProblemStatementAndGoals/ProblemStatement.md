@@ -73,7 +73,8 @@ The stakeholder for this project is the City of Hamilton, Water Division. Primar
 
 ## 1.4 Environment
 
-[\[Hardware and software environment ---SS\]]{style="color: blue"}
+* Software: Windows 10 operating system, android, iOS.
+* Hardware: Laptop computers, tablets, smartphones.
 
 # 2 Goals
 | Goals | Rationale |
