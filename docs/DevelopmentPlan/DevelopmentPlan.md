@@ -27,10 +27,7 @@ This project will not contain extensive confidential information warranting a co
 
 # 2 IP to Protect
 
-State whether there is IP to protect. If there is, point to the
-agreement. All students who are working on a project that requires an IP
-agreement are also required to sign the "Intellectual Property Guide
-Acknowledgement."
+The project does not have any IP to protect.
 
 # 3 Copyright License
 
@@ -39,20 +36,11 @@ your repo.
 
 # 4 Team Meeting Plan
 
-How often will you meet? where?
+## How often will you meet? where?
+Weekly team meetings will occur on Monday evenings. Meetings to be held online or in-person depending on the groups preference that week.
 
-If the meeting is a physical location (not virtual), out of an
-abundance of caution for safety reasons you shouldn't put the location
-online.
-
-How often will you meet with your industry advisor? when? where?
-
-Will meetings be virtual? At least some meetings should likely be
-in-person.
-
-How will the meetings be structured? There should be a chair for all
-meetings. There should be an agenda for all meetings.
-
+## How often will you meet with your industry advisor? when? where?
+We will meet with our industry advisor bi-weekly, but this could be more or less depending on the needs of the capstone team as we progress through the deliverables. Meetings will be on Microsoft Teams, with the option to meet in-person if it is convenient for the particular meeting. Meetings will be structured with a prepared agenda by the capstone team and the discussion with the stakeholder chaired by the team liaison. Meeting minutes and action items will be recorded by the capstone team.
 
 # 5 Team Communication Plan
 
