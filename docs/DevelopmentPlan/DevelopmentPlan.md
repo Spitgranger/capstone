@@ -1,10 +1,9 @@
 # Development Plan
-### Team 15, Team Name
-Mitchell Hynes\
+### Team 15, SyncMasters\
 Richard Fan\
 Akshit Gulia\
 Rafeed Iqbal\
-Kyle D'Souza
+Kyle D'Souza\
 
 ## Revision History
 ***Table 1: Revision History***
@@ -15,67 +14,59 @@ Kyle D'Souza
   \...     |  \...              |      \... |
 
 
-[\[Put your introductory blurb here. Often the blurb is a brief roadmap
-of what is contained in the report. ---SS\]]{style="color: blue"}
+## Introductory Blurb 
 
-[\[Additional information on the development plan can be found in the
+Additional information on the development plan can be found in the
 [lecture
 slides](https://gitlab.cas.mcmaster.ca/courses/capstone/-/blob/main/Lectures/L02b_POCAndDevPlan/POCAndDevPlan.pdf?ref_type=heads).
----SS\]]{style="color: blue"}
 
-# Confidential Information?
 
-[\[State whether your project has confidential information from
-industry, or not. If there is confidential information, point to the
-agreement you have in place. ---SS\]]{style="color: blue"}
+# 1 Confidential Information?
 
-[\[For most teams this section will just state that there is no
-confidential information to protect. ---SS\]]{style="color: blue"}
+This project will not contain extensive confidential information warranting a confidentiality agreement. After a team meeting with MILO, it was determined our team will inform the City to advise us of any confidential information and we will ensure it is not included in the source code or at the capstone expo.
 
-# IP to Protect
+# 2 IP to Protect
 
-[\[State whether there is IP to protect. If there is, point to the
+State whether there is IP to protect. If there is, point to the
 agreement. All students who are working on a project that requires an IP
 agreement are also required to sign the "Intellectual Property Guide
-Acknowledgement." ---SS\]]{style="color: blue"}
+Acknowledgement."
 
-# Copyright License
+# 3 Copyright License
 
-[\[What copyright license is your team adopting. Point to the license in
-your repo. ---SS\]]{style="color: blue"}
+What copyright license is your team adopting. Point to the license in
+your repo.
 
-# Team Meeting Plan
+# 4 Team Meeting Plan
 
-[\[How often will you meet? where? ---SS\]]{style="color: blue"}
+How often will you meet? where?
 
-[\[If the meeting is a physical location (not virtual), out of an
+If the meeting is a physical location (not virtual), out of an
 abundance of caution for safety reasons you shouldn't put the location
-online ---SS\]]{style="color: blue"}
+online.
 
-[\[How often will you meet with your industry advisor? when? where?
----SS\]]{style="color: blue"}
+How often will you meet with your industry advisor? when? where?
 
-[\[Will meetings be virtual? At least some meetings should likely be
-in-person. ---SS\]]{style="color: blue"}
+Will meetings be virtual? At least some meetings should likely be
+in-person.
 
-[\[How will the meetings be structured? There should be a chair for all
+How will the meetings be structured? There should be a chair for all
 meetings. There should be an agenda for all meetings.
----SS\]]{style="color: blue"}
 
-# Team Communication Plan
 
-[\[Issues on GitHub should be part of your communication plan.
----SS\]]{style="color: blue"}
+# 5 Team Communication Plan
 
-# Team Member Roles
+Issues on GitHub should be part of your communication plan.
 
-[\[You should identify the types of roles you anticipate, like
+# 6 Team Member Roles
+
+You should identify the types of roles you anticipate, like
 notetaker, leader, meeting chair, reviewer. Assigning specific people to
 those roles is not necessary at this stage. In a student team the role
 of the individuals will likely change throughout the year.
----SS\]]{style="color: blue"}
 
-# Workflow Plan
+
+# 7 Workflow Plan
 
 -   How will you be using git, including branches, pull request, etc.?
 
@@ -90,34 +81,33 @@ of the individuals will likely change throughout the year.
 
 -   Include a link to your GitHub project
 
-[\[How will the project be scheduled? This is the big picture schedule,
+How will the project be scheduled? This is the big picture schedule,
 not details. You will need to reproduce information that is in the
-course outline for deadlines. ---SS\]]{style="color: blue"}
+course outline for deadlines.
 
-# Proof of Concept Demonstration Plan
+# 9 Proof of Concept Demonstration Plan
 
 What is the main risk, or risks, for the success of your project? What
 will you demonstrate during your proof of concept demonstration to
 convince yourself that you will be able to overcome this risk?
 
-# Expected Technology
+# 10 Expected Technology
 
-[\[What programming language or languages do you expect to use? What
+What programming language or languages do you expect to use? What
 external libraries? What frameworks? What technologies. Are there major
 components of the implementation that you expect you will implement,
 despite the existence of libraries that provide the required
 functionality. For projects with machine learning, will you use
 pre-trained models, or be training your own model?
----SS\]]{style="color: blue"}
 
-[\[The implementation decisions can, and likely will, change over the
+The implementation decisions can, and likely will, change over the
 course of the project. The initial documentation should be written in an
 abstract way; it should be agnostic of the implementation choices,
 unless the implementation choices are project constraints. However,
 recording our initial thoughts on implementation helps understand the
 challenge level and feasibility of a project. It may also help with
 early identification of areas where project members will need to augment
-their training. ---SS\]]{style="color: blue"}
+their training.
 
 Topics to discuss include the following:
 
@@ -140,16 +130,13 @@ Topics to discuss include the following:
 
 -   Tools you will likely be using?
 
-[\[git, GitHub and GitHub projects should be part of your technology.
----SS\]]{style="color: blue"}
+git, GitHub and GitHub projects should be part of your technology.
 
-# Coding Standard
+# 11 Coding Standard
 
-[\[What coding standard will you adopt? ---SS\]]{style="color: blue"}
+What coding standard will you adopt?
 
-# Appendix --- Reflection {#appendix-reflection .unnumbered}
-
-[\[Not required for CAS 741 ---SS\]]{style="color: blue"}
+# Appendix --- Reflection
 
 The purpose of reflection questions is to give you a chance to assess
 your own learning and that of your group as a whole, and to find ways to
@@ -177,82 +164,75 @@ their own response:
 3.  What disagreements did your group have in this deliverable, if any,
     and how did you resolve them?
 
-# Appendix --- Team Charter {#appendix-team-charter .unnumbered}
+# Appendix --- Team Charter
 
-[\[borrows from [University of Portland Team
+borrows from [University of Portland Team
 Charter](https://engineering.up.edu/industry_partnerships/files/team-charter.pdf)
----SS\]]{style="color: blue"}
 
-## External Goals {#external-goals .unnumbered}
-
-[\[What are your team's external goals for this project? These are not
+## External Goals
+What are your team's external goals for this project? These are not
 the goals related to the functionality or quality fo the project. These
 are the goals on what the team wishes to achieve with the project.
 Potential goals are to win a prize at the Capstone EXPO, or to have
 something to talk about in interviews, or to get an A+, etc.
----SS\]]{style="color: blue"}
 
-## Attendance {#attendance .unnumbered}
+## Attendance
 
-### Expectations {#expectations .unnumbered}
+### Expectations
 
-[\[What are your team's expectations regarding meeting attendance (being
+What are your team's expectations regarding meeting attendance (being
 on time, leaving early, missing meetings, etc.)?
----SS\]]{style="color: blue"}
 
-### Acceptable Excuse {#acceptable-excuse .unnumbered}
+### Acceptable Excuse
 
-[\[What constitutes an acceptable excuse for missing a meeting or a
+What constitutes an acceptable excuse for missing a meeting or a
 deadline? What types of excuses will not be considered acceptable?
----SS\]]{style="color: blue"}
 
-### In Case of Emergency {#in-case-of-emergency .unnumbered}
+### In Case of Emergency 
 
-[\[What process will team members follow if they have an emergency and
+What process will team members follow if they have an emergency and
 cannot attend a team meeting or complete their individual work promised
-for a team deliverable? ---SS\]]{style="color: blue"}
+for a team deliverable?
 
 ## Accountability and Teamwork {#accountability-and-teamwork .unnumbered}
 
-### Quality {#quality .unnumbered}
+### Quality
 
-[\[What are your team's expectations regarding the quality of team
+What are your team's expectations regarding the quality of team
 members' preparation for team meetings and the quality of the
 deliverables that members bring to the team?
----SS\]]{style="color: blue"}
 
 ### Attitude {#attitude .unnumbered}
 
-[\[What are your team's expectations regarding team members' ideas,
+What are your team's expectations regarding team members' ideas,
 interactions with the team, cooperation, attitudes, and anything else
 regarding team member contributions? Do you want to introduce a code of
 conduct? Do you want a conflict resolution plan? Can adopt existing
-codes of conduct. ---SS\]]{style="color: blue"}
+codes of conduct.
 
 ### Stay on Track {#stay-on-track .unnumbered}
 
-[\[What methods will be used to keep the team on track? How will your
+What methods will be used to keep the team on track? How will your
 team ensure that members contribute as expected to the team and that the
 team performs as expected? How will your team reward members who do well
 and manage members whose performance is below expectations? What are the
 consequences for someone not contributing their fair share?
----SS\]]{style="color: blue"}
 
-[\[You may wish to use the project management metrics collected for the
-TA and instructor for this. ---SS\]]{style="color: blue"}
 
-[\[You can set target metrics for attendance, commits, etc. What are the
+You may wish to use the project management metrics collected for the
+TA and instructor for this.
+
+You can set target metrics for attendance, commits, etc. What are the
 consequences if someone doesn't hit their targets? Do they need to bring
 the coffee to the next team meeting? Does the team need to make an
 appointment with their TA, or the instructor? Are there incentives for
-reaching targets early? ---SS\]]{style="color: blue"}
+reaching targets early?
 
 ### Team Building {#team-building .unnumbered}
 
-[\[How will you build team cohesion (fun time, group rituals, etc.)?
----SS\]]{style="color: blue"}
+How will you build team cohesion (fun time, group rituals, etc.)?
 
 ### Decision Making {#decision-making .unnumbered}
 
-[\[How will you make decisions in your group? Consensus? Vote? How will
-you handle disagreements? ---SS\]]{style="color: blue"}
+How will you make decisions in your group? Consensus? Vote? How will
+you handle disagreements?
