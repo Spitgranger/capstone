@@ -14,7 +14,7 @@ Table 1: Revision History
   17/09/2024      Whole team    Initial Review and formatting of problem statement
   Date2      Name(s)            Description of changes
   
-# Problem Statement
+# 1 Problem Statement
 
 ## Background
 Issuing and coordinating the work (work order tickets) to both internal staff and external contractors. The contractors will go perform the work and will have to go to the site and in order to be there, there is a number of preliminary documents and training that must be performed first. There is no way to quickly verify if a contractor has completed the plant H&S training. Facilities team is responsible for the contractor's health and safety, but currently it's the QA team managing this on their platform, and the facilities team doesn't have direct access to track this info.
@@ -44,15 +44,15 @@ Stretch goal/ expanding scope: Expand to be a facilities management platform for
 [\[You can change the section headings, as long as you include the
 required information. ---SS\]]{style="color: blue"}
 
-## Problem
+## 1.1 Problem
 
-## Inputs and Outputs
+## 1.2 Inputs and Outputs
 
 [\[Characterize the problem in terms of "high level" inputs and outputs.
 Use abstraction so that you can avoid details.
 ---SS\]]{style="color: blue"}
 
-## Stakeholders
+## 1.3 Stakeholders
 
 The stakeholder for this project is the City of Hamilton, Water Division. Primary stakeholders with the City are the Facilities team, but also includes the SCADA (Supervisory Control and Data Acquisition) and Corporate Security. Depending on what is decided during the requirements gathering process, other stakeholders from the City may need to be included in the project.
 * City of Hamilton, Water Division. Primary stakeholder and client for the project.
@@ -60,15 +60,15 @@ The stakeholder for this project is the City of Hamilton, Water Division. Primar
 * SCADA (Supervisory Control and Data Acquisition). Subdivision of the primary stakeholder.
 * Corporate Security. A stakeholder with an interest regarding Hamilton Water station security.
 
-## Environment
+## 1.4 Environment
 
 [\[Hardware and software environment ---SS\]]{style="color: blue"}
 
-# Goals
+# 2 Goals
 
-# Stretch Goals
+# 3 Stretch Goals
 
-# Challenge Level and Extras
+# 4 Challenge Level and Extras
 
 [\[State your expected challenge level (advanced, general or basic). The
 challenge can come through the required domain knowledge, the
