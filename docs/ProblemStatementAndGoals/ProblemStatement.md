@@ -65,9 +65,17 @@ The stakeholder for this project is the City of Hamilton, Water Division. Primar
 [\[Hardware and software environment ---SS\]]{style="color: blue"}
 
 # 2 Goals
-
+| Goals | Rationale |
+| --- | --- |
+| | |
+| | |
+| | |
 # 3 Stretch Goals
-
+| Goals | Rationale |
+| --- | --- |
+| | |
+| | |
+| | |
 # 4 Challenge Level and Extras
 
 [\[State your expected challenge level (advanced, general or basic). The
