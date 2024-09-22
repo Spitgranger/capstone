@@ -86,7 +86,7 @@ The stakeholder for this project is the City of Hamilton, Water Division. Primar
 | Goals | Rationale |
 | --- | --- |
 | Demonstrate the advantage of a single centralized platform instead of multiple disconnected platforms.| Hamilton Water has applications which do not communicate between each other. Loss of information and working in “silos” is common as a result. Demonstrating the benefits of a platform which integrates the features of separate applications into one would be advantageous. |
-| | |
+|Expand the platform to be a contract management system, capable of having contract management tools accessible to authenticated project managers. |This would enable a greater integration of station and contractor documentation directly into the projects that utilize this information. |
 | | |
 # 4 Challenge Level and Extras
 
