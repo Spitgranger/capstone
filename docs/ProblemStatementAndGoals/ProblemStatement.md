@@ -54,6 +54,12 @@ Use abstraction so that you can avoid details.
 
 ## Stakeholders
 
+The stakeholder for this project is the City of Hamilton, Water Division. Primary stakeholders with the City are the Facilities team, but also includes the SCADA (Supervisory Control and Data Acquisition) and Corporate Security. Depending on what is decided during the requirements gathering process, other stakeholders from the City may need to be included in the project.
+* City of Hamilton, Water Division. Primary stakeholder and client for the project.
+* Facilities Team. Subdivision of the primary stakeholder.
+* SCADA (Supervisory Control and Data Acquisition). Subdivision of the primary stakeholder.
+* Corporate Security. A stakeholder with an interest regarding Hamilton Water station security.
+
 ## Environment
 
 [\[Hardware and software environment ---SS\]]{style="color: blue"}
