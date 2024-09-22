@@ -1,9 +1,9 @@
 # Development Plan
-### Team 15, SyncMasters\
+### Team 15, SyncMasters
 Richard Fan\
 Akshit Gulia\
 Rafeed Iqbal\
-Kyle D'Souza\
+Kyle D'Souza
 
 ## Revision History
 ***Table 1: Revision History***
@@ -75,7 +75,7 @@ of the individuals will likely change throughout the year.
 
 -   Use of CI/CD
 
-# Project Decomposition and Scheduling
+# 8 Project Decomposition and Scheduling
 
 -   How will you be using GitHub projects?
 
