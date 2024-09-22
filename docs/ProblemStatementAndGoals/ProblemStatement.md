@@ -34,23 +34,34 @@ Question for the City: what onboarding specific documents are there. Note: onboa
 The City of Hamilton has a problem managing their water and wastewater outstation facilities. There is currently no software platform which assists the facilities team to track the work that the team has to do.
 This includes:
 
-
 Currently the contractor H&S, they get a link to a training video, and they watch it and then they get put into the system once they sign off confirming they have watched the video. 
 
 It is very easy to lose track of contract related deadlines on things needing signing, or otherpaperwork. 
 
 Stretch goal/ expanding scope: Expand to be a facilities management platform for managing projects. New projects are always being made, and existing contracts last about 5 years and then are retendered. Would be good to have a system that tracks the history of previous contracts.
 
-[\[You can change the section headings, as long as you include the
-required information. ---SS\]]{style="color: blue"}
-
 ## 1.1 Problem
 
 ## 1.2 Inputs and Outputs
 
-[\[Characterize the problem in terms of "high level" inputs and outputs.
-Use abstraction so that you can avoid details.
----SS\]]{style="color: blue"}
+### Inputs 
+* User login information for staff, internal contractors, and visitors.
+* Uploading of documents.
+* Signing of documents.
+* Completion of training.
+* Verification of arrivals and departures from the plant for contractors and internal staff.
+* Adding of new staff and contractors.
+
+### Outputs 
+* Station documentation and documentation authors.
+* Station maps and access protocol information.
+* Station forms.
+* Site contact information.
+* Information on projects.
+
+For facilities managers:
+* Contract management tools including project scheduling, displaying of project documentation and linking it to station information.
+
 
 ## 1.3 Stakeholders
 
