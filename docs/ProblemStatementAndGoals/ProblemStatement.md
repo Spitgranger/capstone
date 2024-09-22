@@ -73,7 +73,7 @@ The stakeholder for this project is the City of Hamilton, Water Division. Primar
 # 3 Stretch Goals
 | Goals | Rationale |
 | --- | --- |
-| | |
+| Demonstrate the advantage of a single centralized platform instead of multiple disconnected platforms.| Hamilton Water has applications which do not communicate between each other. Loss of information and working in “silos” is common as a result. Demonstrating the benefits of a platform which integrates the features of separate applications into one would be advantageous. |
 | | |
 | | |
 # 4 Challenge Level and Extras
