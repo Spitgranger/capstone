@@ -6,13 +6,13 @@ Mitchell Hynes
 Akshit Gulia
 Richard Fan
 Kyle D'Souza
-Rafeed 
+Rafeed Iqbal
 
 Table 1: Revision History
-  **Date**   **Developer(s)**   **Change**
-  ---------- ------------------ ------------------------
-  17/09/2024      Whole team    Initial Review and formatting of problem statement
-  Date2      Name(s)            Description of changes
+| **Date**  | **Developer(s)** |  **Change**|
+|---------- | ------------------ | ------------------------ |
+|  17/09/2024 |  Whole team  |  Initial Review and formatting of problem statement |
+|      |       |   |
   
 # 1 Problem Statement
 
@@ -41,7 +41,7 @@ Directly related to station access is a management system for contractors. This 
 * Site contact information.
 * Information on projects.
 
-For facilities managers:
+For facility managers:
 * Contract management tools including project scheduling, displaying of project documentation and linking it to station information.
 
 
@@ -72,27 +72,9 @@ The stakeholder for this project is the City of Hamilton, Water Division. Primar
 | | |
 # 4 Challenge Level and Extras
 
-[\[State your expected challenge level (advanced, general or basic). The
-challenge can come through the required domain knowledge, the
-implementation or something else. Usually the greater the novelty of a
-project the greater its challenge level. You should include your
-rationale for the selected level. Approval of the level will be part of
-the discussion with the instructor for approving the project. The
-challenge level, with the approval (or request) of the instructor, can
-be modified over the course of the term. ---SS\]]{style="color: blue"}
+The challenge level for this project is a general challenge level. This designation was decided because we do not believe there will be a research element required. The extras for this project will be conducting user testing and developing a user manual. These extras are a good choice for this project as it is being developed for a real client, with the objective of creating a usable tool. Extensive user testing and documentation will be critical for its long term use and maintenance by the client.
 
-[\[Teams may wish to include extras as either potential bonus grades, or
-to make up for a less advanced challenge level. Potential extras include
-usability testing, code walkthroughs, user documentation, formal proof,
-GenderMag personas, Design Thinking, etc. Normally the maximum number of
-extras will be two. Approval of the extras will be part of the
-discussion with the instructor for approving the project. The extras,
-with the approval (or request) of the instructor, can be modified over
-the course of the term. ---SS\]]{style="color: blue"}
-
-# Appendix --- Reflection {#appendix-reflection .unnumbered}
-
-[\[Not required for CAS 741 ---SS\]]{style="color: blue"}
+# Appendix --- Reflection
 
 The purpose of reflection questions is to give you a chance to assess
 your own learning and that of your group as a whole, and to find ways to
