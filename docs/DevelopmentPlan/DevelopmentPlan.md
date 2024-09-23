@@ -182,15 +182,13 @@ What process will team members follow if they have an emergency and
 cannot attend a team meeting or complete their individual work promised
 for a team deliverable?
 
-## Accountability and Teamwork {#accountability-and-teamwork .unnumbered}
+## Accountability and Teamwork
 
 ### Quality
 
-What are your team's expectations regarding the quality of team
-members' preparation for team meetings and the quality of the
-deliverables that members bring to the team?
+Each team member is expected to come prepared with the agreed upon meeting prerequisites. This includes any action items, questions, or code reviews. Each team member to is to put forth their best effort in the course and ask for help from their teammates or the instructional team if needed to meet the course deliverables at a high quality of work.
 
-### Attitude {#attitude .unnumbered}
+### Attitude
 
 What are your team's expectations regarding team members' ideas,
 interactions with the team, cooperation, attitudes, and anything else
@@ -198,7 +196,7 @@ regarding team member contributions? Do you want to introduce a code of
 conduct? Do you want a conflict resolution plan? Can adopt existing
 codes of conduct.
 
-### Stay on Track {#stay-on-track .unnumbered}
+### Stay on Track
 
 What methods will be used to keep the team on track? How will your
 team ensure that members contribute as expected to the team and that the
@@ -216,11 +214,11 @@ the coffee to the next team meeting? Does the team need to make an
 appointment with their TA, or the instructor? Are there incentives for
 reaching targets early?
 
-### Team Building {#team-building .unnumbered}
+### Team Building
 
 How will you build team cohesion (fun time, group rituals, etc.)?
 
-### Decision Making {#decision-making .unnumbered}
+### Decision Making
 
 How will you make decisions in your group? Consensus? Vote? How will
 you handle disagreements?
