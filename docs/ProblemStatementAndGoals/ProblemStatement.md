@@ -62,31 +62,19 @@ discussion with the instructor for approving the project. The extras,
 with the approval (or request) of the instructor, can be modified over
 the course of the term. ---SS\]]{style="color: blue"}
 
-# Appendix --- Reflection {#appendix-reflection .unnumbered}
-
-[\[Not required for CAS 741 ---SS\]]{style="color: blue"}
-
-The purpose of reflection questions is to give you a chance to assess
-your own learning and that of your group as a whole, and to find ways to
-improve in the future. Reflection is an important part of the learning
-process. Reflection is also an essential component of a successful
-software development process.
-
-Reflections are most interesting and useful when they're honest, even if
-the stories they tell are imperfect. You will be marked based on your
-depth of thought and analysis, and not based on the content of the
-reflections themselves. Thus, for full marks we encourage you to answer
-openly and honestly and to avoid simply writing "what you think the
-evaluator wants to hear."
-
-Please answer the following questions. Some questions can be answered on
-the team level, but where appropriate, each team member should write
-their own response:
+# Appendix - Reflection
 
 1.  What went well while writing this deliverable?
+* Sections were divided efficiently, and everyone was aligned on what was to be written and who would write each section.
+* Ample time was given to complete the deliverable
+* Multiple meetings were set to review work and hold accountability for work done
+Everyone adhered to the self-imposed deadlines set for each section of the deliverable
+
 
 2.  What pain points did you experience during this deliverable, and how
     did you resolve them?
+* Some members had a better idea of the problem space, while others were more familiar with the development of software solutions. We overcame this by dividing members between this deliverable and the Development Plan.
+* Version control does not allow live collaboration on written documents in the same way that google docs or microsoft word would. It was decided that the text for different section would be drafted on google docs before being committed to github.
 
 3.  How did you and your team adjust the scope of your goals to ensure
     they are suitable for a Capstone project (not overly ambitious but
