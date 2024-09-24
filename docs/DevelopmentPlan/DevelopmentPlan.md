@@ -112,44 +112,28 @@ convince yourself that you will be able to overcome this risk?
 
 # 10 Expected Technology
 
-What programming language or languages do you expect to use? What
-external libraries? What frameworks? What technologies. Are there major
-components of the implementation that you expect you will implement,
-despite the existence of libraries that provide the required
-functionality. For projects with machine learning, will you use
-pre-trained models, or be training your own model?
+We will be using Git for version control, the repository for the project will
+be hosted on GitHub and we will be using GitHub projects to track issues and
+schedule tasks for the project. The programming languages that we intend to use
+for this project are Javascript for our frontend and Python for our backend. On
+the frontend, we will use the Next.js framework. We intend on using AWS to host
+our application, for this, we will use AWS Cloudformation templates to define
+our infrastructure.
 
-The implementation decisions can, and likely will, change over the
-course of the project. The initial documentation should be written in an
-abstract way; it should be agnostic of the implementation choices,
-unless the implementation choices are project constraints. However,
-recording our initial thoughts on implementation helps understand the
-challenge level and feasibility of a project. It may also help with
-early identification of areas where project members will need to augment
-their training.
+Some of the linter tools we will be using are Ruff, Bandit, and Pylint for
+Python. We will use cfn-lint for linting our Cloudformation templates. For
+Javascript, we will be using Prettier and ESLint. In terms of testing
+frameworks, we will be using Jest for Javascript and Pytest for Python.
+For Python, a code coverage tool we intend on using is Pytest-cov.
 
-Topics to discuss include the following:
+For the CI we will be creating Github actions workflows for running linters,
+formatters and unit tests on the project. We will also create actions to
+automate builds to ensure PRs do not contain breaking changes, and create
+actions for deploying the application into production and testing
+environments.
 
--   Specific programming language
-
--   Specific libraries
-
--   Pre-trained models
-
--   Specific linter tool (if appropriate)
-
--   Specific unit testing framework
-
--   Investigation of code coverage measuring tools
-
--   Specific plans for Continuous Integration (CI), or an explanation
-    that CI is not being done
-
--   Specific performance measuring tools (like Valgrind), if appropriate
-
--   Tools you will likely be using?
-
-git, GitHub and GitHub projects should be part of your technology.
+Of course, the technology mentioned here is not final and is subject to change
+as the project progresses.
 
 # 11 Coding Standard
 
