@@ -220,6 +220,7 @@ reaching targets early?
 How will you build team cohesion (fun time, group rituals, etc.)?
 
 ### Decision Making
+To make decisions, the group member who's role is to direct that task will organize the rest of the group around their respective action items.
+All team members will be able to contribute their opinion, and in general decisions will require a consensus amonngst the group.
+If an issue is not resolved through discussion, it will be brought to the attention of the instructional team for mediation and feedback.
 
-How will you make decisions in your group? Consensus? Vote? How will
-you handle disagreements?
