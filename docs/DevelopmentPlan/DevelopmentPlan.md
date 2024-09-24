@@ -90,6 +90,7 @@ into individual tasks which will then be assigned to different team members.
 
 -   [Our GitHub Project](https://github.com/users/Spitgranger/projects/2/views/1)
 
+***Table 3: Milestones***
 **Milestone** | **Schedule** | 
   -------- | ------------------ |
 Requirements Document Revision 0 <br> Due: October 9th| Start: 24th of September. <br> End:October 5th.|
@@ -237,6 +238,10 @@ meetings. Unacceptable excuses would include, but are not limited to:
 - Personal issues that are not urgent: Being tired, or sleeping in
 - Last Minute Non-Urgent Events: Missing a meeting or deadline to attend a party
 at the last minute.
+
+The examples above provide a guideline as to what is acceptable or unacceptable.
+Ultimately excuses will be considered by the team on an ad-hoc basis so that the
+best solution can be agreed upon given the circumstances.
 
 ### In Case of Emergency
 
