@@ -145,7 +145,29 @@ Topics to discuss include the following:
 
 # Coding Standard
 
-[\[What coding standard will you adopt? ---SS\]]{style="color: blue"}
+To enhance uniformity across developers and adherence to best practices, the
+following coding standard will be adopted: 
+- **Linting** -  As mentioned above, we will be using ESLint with
+@typescript/es-lint plugin for TypeScript code and Pylint for Python code. The
+default ruleset for both tools will be used to enforce best practices pertaining
+to both syntax and semantics as identified by the community.
+
+- **Code Style and Formatting** - Prettier will be the main code formatter used
+for this project. Prettier was chosen because of its opinionated nature by
+default with regard to formatting, as well as compatibility and popularity with
+the TypeScript language. Code written in Python will use Ruff
+(https://github.com/astral-sh/ruff). Naming conventions of variable and function
+names will follow the style guides provided by the creators/maintainers of the
+aforementioned tools.
+
+- **Code Documentation** - To enhance readability and maintainability, all code
+which does not perform a trivial task shall be documented. When documentation is
+needed, it will follow JSDoc or Pydoc conventions so that auto-generated
+documentation can be produced.
+
+- **Testability** - Although subjective, the team should try their best to write
+code in a way that is testable. This includes following the principles of high
+cohesion, low coupling and single responsibility.
 
 # Appendix --- Reflection {#appendix-reflection .unnumbered}
 
