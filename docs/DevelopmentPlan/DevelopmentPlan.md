@@ -64,12 +64,22 @@ will be recorded by the capstone team.
 
 # 6 Team Member Roles
 
-[\[Will meetings be virtual? At least some meetings should likely be
-in-person. ---SS\]]{style="color: blue"}
+Meeting Chair: This position will coordinate meetings, ensure an agenda is set, 
+and that all parties are prepared for the meeting.
 
-[\[How will the meetings be structured? There should be a chair for all
-meetings. There should be an agenda for all meetings.
----SS\]]{style="color: blue"}
+Notetaker: They are responsible for the recording of meeting minutes and 
+ensuring that they are entered into GitHub.
+
+Project Manager: Responsible for ensuring that all team members are up to date 
+on work being performed and that action items for needed tasks are completed.
+
+Team Liaison: Mitchell is the team liaison. They are responsible for 
+maintaining  communications between the McMaster instructional team and the 
+City for the group.
+
+Reviewer: This role is responsible for reviewing other work and ensuring the 
+quality is at a required standard. This includes reviewing commits and pull 
+requests.
   
 # 7 Workflow Plan
 
