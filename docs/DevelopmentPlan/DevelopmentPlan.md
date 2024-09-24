@@ -186,7 +186,8 @@ for a team deliverable?
 
 ### Quality
 
-Each team member is expected to come prepared with the agreed upon meeting prerequisites. This includes any action items, questions, or code reviews. Each team member to is to put forth their best effort in the course and ask for help from their teammates or the instructional team if needed to meet the course deliverables at a high quality of work.
+Each team member is expected to come prepared with the agreed upon meeting prerequisites. This includes any action items, questions, or code reviews.
+Each team member to is to put forth their best effort in the course and ask for help from their teammates or the instructional team if needed to meet the course deliverables at a high quality of work.
 
 ### Attitude
 
