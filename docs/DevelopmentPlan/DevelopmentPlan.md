@@ -200,11 +200,21 @@ something to talk about in interviews, or to get an A+, etc.
 on time, leaving early, missing meetings, etc.)?
 ---SS\]]{style="color: blue"}
 
-### Acceptable Excuse {#acceptable-excuse .unnumbered}
+### Acceptable Excuses
 
-[\[What constitutes an acceptable excuse for missing a meeting or a
-deadline? What types of excuses will not be considered acceptable?
----SS\]]{style="color: blue"}
+Acceptable excuses would include personal/family emergencies as well as
+conflicts and events beyond one’s control such as a sudden power outage or a
+commitment that cannot be rescheduled. These excuses, however, should be kept to
+a minimum and each team member shall do their best to meet deadlines and attend
+meetings. Unacceptable excuses would include, but are not limited to: 
+- Poor time management: Claiming that “there wasn’t enough time” or “I forgot” 
+- Personal issues that are not urgent: Being tired, or sleeping in
+- Last Minute Non-Urgent Events: Missing a meeting or deadline to attend a party
+at the last minute.
+
+The examples above provide a guideline as to what is acceptable or unacceptable.
+Ultimately excuses will be considered by the team on an ad-hoc basis so that the
+best solution can be agreed upon given the circumstances.
 
 ### In Case of Emergency {#in-case-of-emergency .unnumbered}
 
