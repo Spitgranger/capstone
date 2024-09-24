@@ -1,5 +1,4 @@
 # Development Plan
-
 ### Team 15, Team Name
 Mitchell Hynes\
 Richard Fan\
