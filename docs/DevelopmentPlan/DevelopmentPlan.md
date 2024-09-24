@@ -155,10 +155,9 @@ to both syntax and semantics as identified by the community.
 - **Code Style and Formatting** - Prettier will be the main code formatter used
 for this project. Prettier was chosen because of its opinionated nature by
 default with regard to formatting, as well as compatibility and popularity with
-the TypeScript language. Code written in Python will use Ruff
-(https://github.com/astral-sh/ruff). Naming conventions of variable and function
-names will follow the style guides provided by the creators/maintainers of the
-aforementioned tools.
+the TypeScript language. Code written in Python will use Ruff. Naming
+conventions of variable and function names will follow the style guides provided
+by the creators/maintainers of the aforementioned tools.
 
 - **Code Documentation** - To enhance readability and maintainability, all code
 which does not perform a trivial task shall be documented. When documentation is
