@@ -57,7 +57,9 @@ For facility managers:
 
 ## 1.3 Stakeholders
 
-The stakeholder for this project is the City of Hamilton, Water Division. Primary stakeholders with the City are the Facilities team, but also includes the SCADA (Supervisory Control and Data Acquisition) and Corporate Security. Depending on what is decided during the requirements gathering process, other stakeholders from the City may need to be included in the project.
+The stakeholder for this project is the City of Hamilton, Water Division. 
+Primary stakeholders with the City are the Facilities team, SCADA (Supervisory Control and Data Acquisition) team, and Corporate Security. 
+Depending on what is decided during the requirements gathering process, other stakeholders from the City may need to be included in the project, such as City IT.
 * City of Hamilton, Water Division. Primary stakeholder and client for the project.
 * Facilities Team. Subdivision of the primary stakeholder.
 * SCADA (Supervisory Control and Data Acquisition). Subdivision of the primary stakeholder.
@@ -82,7 +84,9 @@ The stakeholder for this project is the City of Hamilton, Water Division. Primar
 | | |
 # 4 Challenge Level and Extras
 
-The challenge level for this project is a general challenge level. This designation was decided because we do not believe there will be a research element required. The extras for this project will be conducting user testing and developing a user manual. These extras are a good choice for this project as it is being developed for a real client, with the objective of creating a usable tool. Extensive user testing and documentation will be critical for its long term use and maintenance by the client.
+The challenge level for this project is a general challenge level. This designation was decided because we do not believe there will be a research element required.
+The extras for this project will be conducting user testing and developing a user manual. These extras are a good choice for this project as it is being developed for a real client, with the objective of creating a usable tool.
+Extensive user testing and documentation will be critical for its long term use and maintenance by the client.
 
 # Appendix --- Reflection
 
