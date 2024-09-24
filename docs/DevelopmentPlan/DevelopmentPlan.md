@@ -196,7 +196,12 @@ something to talk about in interviews, or to get an A+, etc.
 
 ### Expectations {#expectations .unnumbered}
 
-Team members are expected to attend all scheduled meetings as reasonably possible. If a team member needs to miss a meeting, they should inform the team beforehand. During the meeting, team members are expected to be on time and stay for the entire duration of the meeting unless prior arrangements have been made, something urgent comes up during the meeting (see _Acceptable Excuse_), or the meeting goes over the scheduled amount of time.
+Team members are expected to attend all scheduled meetings as reasonably
+possible. If a team member needs to miss a meeting, they should inform the team
+beforehand. During the meeting, team members are expected to be on time and
+stay for the entire duration of the meeting unless prior arrangements have been
+made, something urgent comes up during the meeting (see _Acceptable Excuse_),
+or the meeting goes over the scheduled amount of time.
 
 ### Acceptable Excuse {#acceptable-excuse .unnumbered}
 
