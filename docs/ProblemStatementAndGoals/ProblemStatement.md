@@ -1,12 +1,13 @@
 
 **Problem Statement and Goals**
 
-Team 15, DocUmanagement
-Mitchell Hynes
-Akshit Gulia
-Richard Fan
-Kyle D'Souza
-Rafeed Iqbal
+Team 15, SyncMasters
+  
+* Mitchell Hynes
+* Akshit Gulia
+* Richard Fan
+* Kyle D'Souza
+* Rafeed Iqbal
 
 Table 1: Revision History
 | **Date**  | **Developer(s)** |  **Change**|
