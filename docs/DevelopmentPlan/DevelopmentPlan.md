@@ -64,8 +64,14 @@ meetings. There should be an agenda for all meetings.
 
 # Team Communication Plan
 
-[\[Issues on GitHub should be part of your communication plan.
----SS\]]{style="color: blue"}
+***Table 2: Communication Plan***
+  **Type** | **Method** | 
+  -------- | ------------------ | 
+  Regular communications  |  Discord  |
+  Assignment of tasks  | GitHub Issues |     
+  Communications with professors, supervisor, the city, and other stakeholders.   |  Handled by Team Liaison Mitchell Hynes, in-person or over email.|
+  Meetings      |     Discord, scheduled through outlook calendar.|
+  
 
 # Team Member Roles
 
@@ -86,13 +92,26 @@ of the individuals will likely change throughout the year.
 
 # Project Decomposition and Scheduling
 
--   How will you be using GitHub projects?
+-   We will be using Github Projects to decompose our milestones. Each Milestone will be divided
+into individual tasks which will then be assigned to different team members.
+- Each document will be split into sections, and assigned individually or to groups as needed. 
+- The proof of concept, revision 0 and revision 1 will be split feature-wise and assigned to individuals or groups as necessary.
+- Time will be alloted for verification, validation and review after the completion of each milestone and before the due date.
 
--   Include a link to your GitHub project
+-   [Our GitHub Project](https://github.com/users/Spitgranger/projects/2/views/1)
 
-[\[How will the project be scheduled? This is the big picture schedule,
-not details. You will need to reproduce information that is in the
-course outline for deadlines. ---SS\]]{style="color: blue"}
+**Milestone** | **Schedule** | 
+  -------- | ------------------ |
+Requirements Document Revision 0 <br> Due: October 9th| Start: 24th of September. <br> End:October 5th.|
+Hazard Analysis 0 <br> Due: October 23rd| Start: October 9th <br> End: October 19th.|
+V&V Plan Revision 0 <br> Due: November 1| Start: October 16th <br> End: October 28th.|
+Proof of Concept <br> Demonstration: November 11-22| Start: after completion of the Requirements document. <br> End: by November 4th, with improvements being made and testing being done until the day of our demonstration.|
+Design Document Revision 0 <br> Due: January 15 | Start: after completion of the Proof of Concept demo <br>End: by January 11th|
+Revision 0 <br> Demonstration: February 3-14| Start: alongside proof of concept (After finalizing requirements in the meeting with the city). <br> End: by February 1st.|
+V&V Report Revision 0<br>Due: March 7 |Start: alongside the development of Revision 0 of the project. <br> End: by March 4th|
+Final Demonstration (Revision 1) <br>Due: March 24-30 | Start: after the completion of Revision 0. <br>End: by March 20th.|
+| EXPO <br> Demonstration: TBD, April| Start: 2 weeks before the day of the expo.|
+Final Documentation (Revision 1) <br> Due: April 2 |Start: March 10th. <br> End: by March 30th.|
 
 # Proof of Concept Demonstration Plan
 
@@ -206,11 +225,16 @@ on time, leaving early, missing meetings, etc.)?
 deadline? What types of excuses will not be considered acceptable?
 ---SS\]]{style="color: blue"}
 
-### In Case of Emergency {#in-case-of-emergency .unnumbered}
+### In Case of Emergency
 
-[\[What process will team members follow if they have an emergency and
-cannot attend a team meeting or complete their individual work promised
-for a team deliverable? ---SS\]]{style="color: blue"}
+If a team member has an emergency, team members will inform the rest of the team at their earliest 
+convenience to ensure the other team members are aware that their responsibilities in the project
+will be impacted. This applies to both attendance at team meetings and
+
+In case of an emergency, a team member will:
+1. Write a message in the project discord at their earliest convenience regarding what work will be missed, and during what time frame they may be unavailable.
+2. Email team liaison Mitchell regarding the emergency to leave a record which can be shared with the course coordinators if necessary.
+
 
 ## Accountability and Teamwork {#accountability-and-teamwork .unnumbered}
 
@@ -247,10 +271,14 @@ the coffee to the next team meeting? Does the team need to make an
 appointment with their TA, or the instructor? Are there incentives for
 reaching targets early? ---SS\]]{style="color: blue"}
 
-### Team Building {#team-building .unnumbered}
+### Team Building
 
-[\[How will you build team cohesion (fun time, group rituals, etc.)?
----SS\]]{style="color: blue"}
+We have been studying in the same program for nearly 5 years now, and so there are many shared
+experiences which bring us together as a team. While it may not be necessary to schedule additional
+activities for team building, it may prove beneficial for stress release and increasing team cohesion. 
+- Team Lunches: Between classes, days when everyone is on campus and has time free around noon.
+- Ad-hoc team activities: Other fun activities can be scheduled according to the free time of the team members
+
 
 ### Decision Making {#decision-making .unnumbered}
 
