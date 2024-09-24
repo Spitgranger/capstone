@@ -41,8 +41,13 @@ Acknowledgement." ---SS\]]{style="color: blue"}
 
 # Copyright License
 
-[\[What copyright license is your team adopting. Point to the license in
-your repo. ---SS\]]{style="color: blue"}
+Our team will be licencing our project under the **MIT** licence
+(https://github.com/Spitgranger/capstone/blob/main/LICENSE). As our project is
+done in collaboration with industry this licence makes sense due to its
+flexibility. It will allow our industry partners to freely use and modify the code
+as they see fit in both open source and proprietary projects. This may be the
+case after the conclusion of this capstone project, hence the choice of this
+licence.
 
 # Team Meeting Plan
 
