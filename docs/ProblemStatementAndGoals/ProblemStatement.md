@@ -109,6 +109,10 @@ their own response:
 
 1.  What went well while writing this deliverable?
 
+Mitchell: 
+We had great and open communication with the City during this deliverable which greatly aided us in developing the problem statement.
+Our team effectively documented the actions we took and helped eachother learn how to use the git workflow for developing our project.
+
 2.  What pain points did you experience during this deliverable, and how
     did you resolve them?
 
