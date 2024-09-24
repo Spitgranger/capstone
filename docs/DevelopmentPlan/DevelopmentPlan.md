@@ -15,15 +15,13 @@ Kyle D'Souza
 
 
 ## Introductory Blurb 
-
-Additional information on the development plan can be found in the
-[lecture
-slides](https://gitlab.cas.mcmaster.ca/courses/capstone/-/blob/main/Lectures/L02b_POCAndDevPlan/POCAndDevPlan.pdf?ref_type=heads).
-
+This document outlines the development plan for the project. Further information regarding the problem is located in ~/docs/ProblemStatementAndGoals/ProblemStatement.pdf.
 
 # 1 Confidential Information?
 
-This project will not contain extensive confidential information warranting a confidentiality agreement. After a team meeting with MILO, it was determined our team will inform the City to advise us of any confidential information and we will ensure it is not included in the source code or at the capstone expo.
+This project will not contain extensive confidential information warranting a confidentiality agreement.
+After a team meeting with MILO, it was determined our team will inform the City to advise us of any confidential information.
+We will ensure it is not included in the source code or at the capstone expo.
 
 # 2 IP to Protect
 
@@ -40,7 +38,10 @@ your repo.
 Weekly team meetings will occur on Monday evenings. Meetings to be held online or in-person depending on the groups preference that week.
 
 ## How often will you meet with your industry advisor? when? where?
-We will meet with our industry advisor bi-weekly, but this could be more or less depending on the needs of the capstone team as we progress through the deliverables. Meetings will be on Microsoft Teams, with the option to meet in-person if it is convenient for the particular meeting. Meetings will be structured with a prepared agenda by the capstone team and the discussion with the stakeholder chaired by the team liaison. Meeting minutes and action items will be recorded by the capstone team.
+We will meet with our industry advisor bi-weekly, but this could be more or less depending on the needs of the capstone team as we progress through the deliverables.
+Meetings will be on Microsoft Teams, with the option to meet in-person if it is convenient for the particular meeting.
+Meetings will be structured with a prepared agenda by the capstone team and the discussion with the stakeholder chaired by the team liaison. 
+Meeting minutes and action items will be recorded by the capstone team.
 
 # 5 Team Communication Plan
 
