@@ -194,7 +194,7 @@ something to talk about in interviews, or to get an A+, etc.
 
 ## Attendance {#attendance .unnumbered}
 
-### Expectations {#expectations .unnumbered}
+### Expectations
 
 Team members are expected to attend all scheduled meetings as reasonably
 possible. If a team member needs to miss a meeting, they should inform the team
