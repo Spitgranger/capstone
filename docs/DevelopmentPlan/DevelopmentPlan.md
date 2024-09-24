@@ -1,4 +1,5 @@
 # Development Plan
+
 ### Team 15, Team Name
 Mitchell Hynes\
 Richard Fan\
@@ -122,7 +123,7 @@ automate builds to ensure PRs do not contain breaking changes, and create
 actions for deploying the application into production and testing
 environments.
 
-Of course, the technology mentioned here is not final and is subject to change 
+Of course, the technology mentioned here is not final and is subject to change
 as the project progresses.
 
 # Coding Standard
