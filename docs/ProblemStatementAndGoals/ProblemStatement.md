@@ -30,6 +30,7 @@ Information needs to be easily accessible to authorized site visitors.
 Many documents require signing, and currently it is a manual process to distribute and collect routine signatures. 
 This functionality currently requires the stakeholder to use multiple applications. The stakeholder also currently has many different computer applications for documentation storage. 
 Each has a different standard for storing and managing that information. This leads to duplication and outdated documents in many locations, rather than a single source of truth.
+The stakeholder requries contract management tools including syncing of contract files to the application and automatic alerts when documents, training, or signatures are set to expire.
 
 Directly related to station access is a management system for contractors. This includes the ability to collect and distribute contract documentation, contact information, training, and other records.
 A key control management subsystem would be beneficial to view key distribution in real time, as this is currently managed in a separate application.
@@ -52,9 +53,6 @@ A digital key system should control access and entry to the station approved fro
 * Station forms.
 * Site contact information.
 * Information on projects.
-
-For facility managers:
-* Contract management tools including syncing of contract files to the application and automatic alerts of documents, training, or signatures set to expire.
 
 ## 1.3 Stakeholders
 
