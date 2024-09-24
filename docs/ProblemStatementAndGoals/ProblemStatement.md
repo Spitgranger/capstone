@@ -19,14 +19,16 @@ Table 1: Revision History
 ## 1.1 Problem
 
 The City of Hamilton, Water Division requires an application to assist in the management and security of their water and wastewater stations.
-Stations are visited by internal staff and external contractors regularly, but no electronic log of their visit to site to confirm work that was performed. 
+Stations are visited by internal staff and external contractors regularly, but no electronic log of their visit to site exists to confirm work that was performed.
+This makes it difficult to verify work completion and accurate invoicing.
 Each station has many documents associated with it (such as entry protocols, hazard assessments, etc) which are frequently updated and need to be effortlessly redistributed to relevant parties as required.
 This is currently completed manually and is very time consuming for the stakeholder and prone to human error.
 Many stations have site specific information, which is difficult to capture in a single document.
-Instead, a dynamic application which displays only information relevant to that station as it is needed would be advantageous. 
+Instead, a dynamic application which displays only information relevant to that station as it is needed would be advantageous.
+Information needs to be easily accessible to authorized site visitors.
 
 Many documents require signing, and currently it is a manual process to distribute and collect routine signatures. 
-This functionality currently requires the stakeholder to use multiple applications. The stakeholder currently has many different computer applications for documentation storage. 
+This functionality currently requires the stakeholder to use multiple applications. The stakeholder also currently has many different computer applications for documentation storage. 
 Each has a different standard for storing and managing that information. This leads to duplication and outdated documents in many locations, rather than a single source of truth.
 
 Directly related to station access is a management system for contractors. This includes the ability to collect and distribute contract documentation, contact information, training, and other records.
@@ -52,8 +54,7 @@ A digital key system should control access and entry to the station approved fro
 * Information on projects.
 
 For facility managers:
-* Contract management tools including project scheduling, displaying of project documentation and linking it to station information.
-
+* Contract management tools including syncing of contract files to the application and automatic alerts of documents, training, or signatures set to expire.
 
 ## 1.3 Stakeholders
 
