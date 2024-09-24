@@ -18,11 +18,21 @@ Table 1: Revision History
 
 ## 1.1 Problem
 
-The City of Hamilton, Water Division requires an application to assist in the management and security of their water and wastewater stations. Stations are visited by internal staff and external contractors regularly, but no electronic log of their visit to site to confirm work that was performed. Each station has many documents associated with it (such as entry protocols, hazard assessments, etc) which are frequently updated and need to be effortlessly redistributed to relevant parties as required. This is currently completed manually and is very time consuming for the stakeholder and prone to human error. Many stations have site specific information, which is difficult to capture in a single document and instead a dynamic application which displays only information relevant to that station as it is needed would be advantageous. 
+The City of Hamilton, Water Division requires an application to assist in the management and security of their water and wastewater stations.
+Stations are visited by internal staff and external contractors regularly, but no electronic log of their visit to site to confirm work that was performed. 
+Each station has many documents associated with it (such as entry protocols, hazard assessments, etc) which are frequently updated and need to be effortlessly redistributed to relevant parties as required.
+This is currently completed manually and is very time consuming for the stakeholder and prone to human error.
+Many stations have site specific information, which is difficult to capture in a single document.
+Instead, a dynamic application which displays only information relevant to that station as it is needed would be advantageous. 
 
-Many documents require signing, and currently it is a manual process to distribute and collect routine signatures. This functionality currently requires the stakeholder to use multiple computer programs, when it would be far more efficient to have a single centralized application for this purpose. The stakeholder currently has many different computer applications all for the purpose of storing documentation, each with a different standard for storing and managing that information. This leads to duplication and outdated documents in many locations, rather than a single source of truth.
+Many documents require signing, and currently it is a manual process to distribute and collect routine signatures. 
+This functionality currently requires the stakeholder to use multiple applications. The stakeholder currently has many different computer applications for documentation storage. 
+Each has a different standard for storing and managing that information. This leads to duplication and outdated documents in many locations, rather than a single source of truth.
 
-Directly related to station access is a management system for contractors. This includes the ability to collect and distribute contract documentation, contact information, training, and other records. A key control management subsystem would be beneficial to view key distribution in real time, as this is currently managed in a separate application. A system to authenticate users at stations prior to access would be beneficial to provide an added layer of visibility and protection.
+Directly related to station access is a management system for contractors. This includes the ability to collect and distribute contract documentation, contact information, training, and other records.
+A key control management subsystem would be beneficial to view key distribution in real time, as this is currently managed in a separate application.
+A system to authenticate users at stations prior to access would improve visibility and protection.
+A digital key system should control access and entry to the station approved from a work order generated in the work order system.
 
 ## 1.2 Inputs and Outputs
 
