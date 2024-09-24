@@ -65,7 +65,8 @@ the course of the term. ---SS\]]{style="color: blue"}
 # Appendix - Reflection
 
 1.  What went well while writing this deliverable?
-* Sections were divided efficiently, and everyone was aligned on what was to be written and who would write each section.
+* Sections were divided efficiently, and everyone was aligned on what was to be written and who would 
+write each section.
 * Ample time was given to complete the deliverable
 * Multiple meetings were set to review work and hold accountability for work done
 Everyone adhered to the self-imposed deadlines set for each section of the deliverable
@@ -73,8 +74,12 @@ Everyone adhered to the self-imposed deadlines set for each section of the deliv
 
 2.  What pain points did you experience during this deliverable, and how
     did you resolve them?
-* Some members had a better idea of the problem space, while others were more familiar with the development of software solutions. We overcame this by dividing members between this deliverable and the Development Plan.
-* Version control does not allow live collaboration on written documents in the same way that google docs or microsoft word would. It was decided that the text for different section would be drafted on google docs before being committed to github.
+* Some members had a better idea of the problem space, while others were more familiar with the 
+development of software solutions. 
+We overcame this by dividing members between this deliverable and the Development Plan.
+* Version control does not allow live collaboration on written documents in the same way that google docs
+ or microsoft word would. It was decided that the text for different section would be drafted on google 
+ docs before being committed to github.
 
 3.  How did you and your team adjust the scope of your goals to ensure
     they are suitable for a Capstone project (not overly ambitious but
