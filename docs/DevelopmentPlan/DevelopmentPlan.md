@@ -229,23 +229,43 @@ regarding team member contributions? Do you want to introduce a code of
 conduct? Do you want a conflict resolution plan? Can adopt existing
 codes of conduct. ---SS\]]{style="color: blue"}
 
-### Stay on Track {#stay-on-track .unnumbered}
+### Stay on Track
 
-[\[What methods will be used to keep the team on track? How will your
-team ensure that members contribute as expected to the team and that the
-team performs as expected? How will your team reward members who do well
-and manage members whose performance is below expectations? What are the
-consequences for someone not contributing their fair share?
----SS\]]{style="color: blue"}
+To keep the team on track we will use GitHub projects to keep track of tasks we
+need to complete and their deadlines. We will ensure that team members
+contribute to the team by assigning tasks for deliverables equally amongst the
+team so everyone has an equal workload and knows what they need to do. When
+someone’s performance is below expectations we will first try to figure out
+internally in the team if there is anything that can be done to improve their
+performance. If nothing can be found within the team, then we will contact our
+TA for advice. A punishment for performing below expectations might include
+assigning more work to the individual in the following deliverables. For team
+members who do well, we will reward them by giving them Timbits at the end of
+the course.
 
-[\[You may wish to use the project management metrics collected for the
-TA and instructor for this. ---SS\]]{style="color: blue"}
+The performance of team members will be judged based on the following:
+* Completion of all assigned issues before their deadlines
+* Capstone lecture attendance for software engineering lectures* >= 50%
+* Internal meeting attendance* >= 80%
+* Stakeholder meeting attendance* >= 90%
+* For commits, we will have to see how often things are getting committed into
+the repository. Still, as a general rule, we can say that if a group member has
+35% fewer commits than the average number of commits for all other team members
+and also 35% fewer additions than the average for all other team members, then
+they are likely not meeting expectations.
 
-[\[You can set target metrics for attendance, commits, etc. What are the
-consequences if someone doesn't hit their targets? Do they need to bring
-the coffee to the next team meeting? Does the team need to make an
-appointment with their TA, or the instructor? Are there incentives for
-reaching targets early? ---SS\]]{style="color: blue"}
+*For attendance-based goals if someone has an exception for some meetings,
+which is covered by the acceptable excuses, then the meetings that they were
+excused for are not counted towards their attendance.
+
+If team members do not meet their goals we will first internally discuss with
+the team member why they were unable to achieve the goals and what can be done
+to prevent it from happening going forward. If no resolution can be reached we
+will discuss the situation with our TA or the instructor. We will not implement
+punishments like “the team member needs to bring coffee to the next meeting”
+because this is not productive and generally does nothing in the way of solving
+the root issues. There won’t be any particular incentives for reaching targets
+early other than not having to worry about reaching the targets.
 
 ### Team Building {#team-building .unnumbered}
 
