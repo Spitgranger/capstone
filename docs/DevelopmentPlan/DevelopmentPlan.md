@@ -35,10 +35,8 @@ your repo.
 
 # 4 Team Meeting Plan
 
-## How often will you meet? where?
 Weekly team meetings will occur on Monday evenings. Meetings to be held online or in-person depending on the groups preference that week.
 
-## How often will you meet with your industry advisor? when? where?
 We will meet with our industry advisor bi-weekly, but this could be more or less depending on the needs of the capstone team as we progress through the deliverables.
 Meetings will be on Microsoft Teams, with the option to meet in-person if it is convenient for the particular meeting.
 Meetings will be structured with a prepared agenda by the capstone team and the discussion with the stakeholder chaired by the team liaison. 
