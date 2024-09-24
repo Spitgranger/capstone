@@ -1,5 +1,5 @@
 # Development Plan
-### Team 15, Team Name
+### Team 15, SyncMasters
 Mitchell Hynes\
 Richard Fan\
 Akshit Gulia\
@@ -15,31 +15,20 @@ Kyle D'Souza
   \...     |  \...              |      \... |
 
 
-[\[Put your introductory blurb here. Often the blurb is a brief roadmap
-of what is contained in the report. ---SS\]]{style="color: blue"}
+## Introductory Blurb 
+This document outlines the development plan for the project. Further information regarding the problem is located in ~/docs/ProblemStatementAndGoals/ProblemStatement.pdf.
 
-[\[Additional information on the development plan can be found in the
-[lecture
-slides](https://gitlab.cas.mcmaster.ca/courses/capstone/-/blob/main/Lectures/L02b_POCAndDevPlan/POCAndDevPlan.pdf?ref_type=heads).
----SS\]]{style="color: blue"}
+# 1 Confidential Information?
 
-# Confidential Information?
+This project will not contain extensive confidential information warranting a confidentiality agreement.
+After a team meeting with MILO, it was determined our team will inform the City to advise us of any confidential information.
+We will ensure it is not included in the source code or at the capstone expo.
 
-[\[State whether your project has confidential information from
-industry, or not. If there is confidential information, point to the
-agreement you have in place. ---SS\]]{style="color: blue"}
+# 2 IP to Protect
 
-[\[For most teams this section will just state that there is no
-confidential information to protect. ---SS\]]{style="color: blue"}
+The project does not have any IP to protect.
 
-# IP to Protect
-
-[\[State whether there is IP to protect. If there is, point to the
-agreement. All students who are working on a project that requires an IP
-agreement are also required to sign the "Intellectual Property Guide
-Acknowledgement." ---SS\]]{style="color: blue"}
-
-# Copyright License
+# 3 Copyright License
 
 Our team will be licencing our project under the **MIT** licence
 (https://github.com/Spitgranger/capstone/blob/main/LICENSE). As our project is
@@ -49,38 +38,32 @@ as they see fit in both open source and proprietary projects. This may be the
 case after the conclusion of this capstone project, hence the choice of this
 licence.
 
-# Team Meeting Plan
+# 4 Team Meeting Plan
 
-[\[How often will you meet? where? ---SS\]]{style="color: blue"}
+Weekly team meetings will occur on Monday evenings. Meetings to be held online
+or in-person depending on the groups preference that week.
 
-[\[If the meeting is a physical location (not virtual), out of an
-abundance of caution for safety reasons you shouldn't put the location
-online ---SS\]]{style="color: blue"}
+We will meet with our industry advisor bi-weekly, but this could be more or less
+depending on the needs of the capstone team as we progress through the
+deliverables. Meetings will be on Microsoft Teams, with the option to meet
+in-person if it is convenient for the particular meeting. Meetings will be
+structured with a prepared agenda by the capstone team and the discussion with
+the stakeholder chaired by the team liaison. Meeting minutes and action items
+will be recorded by the capstone team.
 
-[\[How often will you meet with your industry advisor? when? where?
----SS\]]{style="color: blue"}
+# 5 Team Communication Plan
 
-[\[Will meetings be virtual? At least some meetings should likely be
-in-person. ---SS\]]{style="color: blue"}
+Issues on GitHub should be part of your communication plan.
 
-[\[How will the meetings be structured? There should be a chair for all
-meetings. There should be an agenda for all meetings.
----SS\]]{style="color: blue"}
+# 6 Team Member Roles
 
-# Team Communication Plan
-
-[\[Issues on GitHub should be part of your communication plan.
----SS\]]{style="color: blue"}
-
-# Team Member Roles
-
-[\[You should identify the types of roles you anticipate, like
+You should identify the types of roles you anticipate, like
 notetaker, leader, meeting chair, reviewer. Assigning specific people to
 those roles is not necessary at this stage. In a student team the role
 of the individuals will likely change throughout the year.
----SS\]]{style="color: blue"}
 
-# Workflow Plan
+
+# 7 Workflow Plan
 
 -   How will you be using git, including branches, pull request, etc.?
 
@@ -89,40 +72,39 @@ of the individuals will likely change throughout the year.
 
 -   Use of CI/CD
 
-# Project Decomposition and Scheduling
+# 8 Project Decomposition and Scheduling
 
 -   How will you be using GitHub projects?
 
 -   Include a link to your GitHub project
 
-[\[How will the project be scheduled? This is the big picture schedule,
+How will the project be scheduled? This is the big picture schedule,
 not details. You will need to reproduce information that is in the
-course outline for deadlines. ---SS\]]{style="color: blue"}
+course outline for deadlines.
 
-# Proof of Concept Demonstration Plan
+# 9 Proof of Concept Demonstration Plan
 
 What is the main risk, or risks, for the success of your project? What
 will you demonstrate during your proof of concept demonstration to
 convince yourself that you will be able to overcome this risk?
 
-# Expected Technology
+# 10 Expected Technology
 
-[\[What programming language or languages do you expect to use? What
+What programming language or languages do you expect to use? What
 external libraries? What frameworks? What technologies. Are there major
 components of the implementation that you expect you will implement,
 despite the existence of libraries that provide the required
 functionality. For projects with machine learning, will you use
 pre-trained models, or be training your own model?
----SS\]]{style="color: blue"}
 
-[\[The implementation decisions can, and likely will, change over the
+The implementation decisions can, and likely will, change over the
 course of the project. The initial documentation should be written in an
 abstract way; it should be agnostic of the implementation choices,
 unless the implementation choices are project constraints. However,
 recording our initial thoughts on implementation helps understand the
 challenge level and feasibility of a project. It may also help with
 early identification of areas where project members will need to augment
-their training. ---SS\]]{style="color: blue"}
+their training.
 
 Topics to discuss include the following:
 
@@ -145,10 +127,9 @@ Topics to discuss include the following:
 
 -   Tools you will likely be using?
 
-[\[git, GitHub and GitHub projects should be part of your technology.
----SS\]]{style="color: blue"}
+git, GitHub and GitHub projects should be part of your technology.
 
-# Coding Standard
+# 11 Coding Standard
 
 To enhance uniformity across developers and adherence to best practices, the
 following coding standard will be adopted: 
@@ -173,9 +154,7 @@ documentation can be produced.
 code in a way that is testable. This includes following the principles of high
 cohesion, low coupling and single responsibility.
 
-# Appendix --- Reflection {#appendix-reflection .unnumbered}
-
-[\[Not required for CAS 741 ---SS\]]{style="color: blue"}
+# Appendix --- Reflection
 
 The purpose of reflection questions is to give you a chance to assess
 your own learning and that of your group as a whole, and to find ways to
@@ -203,22 +182,19 @@ their own response:
 3.  What disagreements did your group have in this deliverable, if any,
     and how did you resolve them?
 
-# Appendix --- Team Charter {#appendix-team-charter .unnumbered}
+# Appendix --- Team Charter
 
-[\[borrows from [University of Portland Team
+borrows from [University of Portland Team
 Charter](https://engineering.up.edu/industry_partnerships/files/team-charter.pdf)
----SS\]]{style="color: blue"}
 
-## External Goals {#external-goals .unnumbered}
-
-[\[What are your team's external goals for this project? These are not
+## External Goals
+What are your team's external goals for this project? These are not
 the goals related to the functionality or quality fo the project. These
 are the goals on what the team wishes to achieve with the project.
 Potential goals are to win a prize at the Capstone EXPO, or to have
 something to talk about in interviews, or to get an A+, etc.
----SS\]]{style="color: blue"}
 
-## Attendance {#attendance .unnumbered}
+## Attendance
 
 ### Expectations
 
@@ -245,28 +221,29 @@ The examples above provide a guideline as to what is acceptable or unacceptable.
 Ultimately excuses will be considered by the team on an ad-hoc basis so that the
 best solution can be agreed upon given the circumstances.
 
-### In Case of Emergency {#in-case-of-emergency .unnumbered}
+### In Case of Emergency 
 
-[\[What process will team members follow if they have an emergency and
+What process will team members follow if they have an emergency and
 cannot attend a team meeting or complete their individual work promised
-for a team deliverable? ---SS\]]{style="color: blue"}
+for a team deliverable?
 
-## Accountability and Teamwork {#accountability-and-teamwork .unnumbered}
+## Accountability and Teamwork
 
-### Quality {#quality .unnumbered}
+### Quality
 
-[\[What are your team's expectations regarding the quality of team
-members' preparation for team meetings and the quality of the
-deliverables that members bring to the team?
----SS\]]{style="color: blue"}
+Each team member is expected to come prepared with the agreed upon meeting
+prerequisites. This includes any action items, questions, or code reviews. Each
+team member to is to put forth their best effort in the course and ask for help
+from their teammates or the instructional team if needed to meet the course
+deliverables at a high quality of work.
 
-### Attitude {#attitude .unnumbered}
+### Attitude
 
-[\[What are your team's expectations regarding team members' ideas,
+What are your team's expectations regarding team members' ideas,
 interactions with the team, cooperation, attitudes, and anything else
 regarding team member contributions? Do you want to introduce a code of
 conduct? Do you want a conflict resolution plan? Can adopt existing
-codes of conduct. ---SS\]]{style="color: blue"}
+codes of conduct.
 
 ### Stay on Track
 
@@ -306,12 +283,15 @@ because this is not productive and generally does nothing in the way of solving
 the root issues. There won’t be any particular incentives for reaching targets
 early other than not having to worry about reaching the targets.
 
-### Team Building {#team-building .unnumbered}
+### Team Building
 
-[\[How will you build team cohesion (fun time, group rituals, etc.)?
----SS\]]{style="color: blue"}
+How will you build team cohesion (fun time, group rituals, etc.)?
 
-### Decision Making {#decision-making .unnumbered}
+### Decision Making
+To make decisions, the group member who's role is to direct that task will
+organize the rest of the group around their respective action items. All team
+members will be able to contribute their opinion, and in general decisions will
+require a consensus amonngst the group. If an issue is not resolved through
+discussion, it will be brought to the attention of the instructional team for
+mediation and feedback.
 
-[\[How will you make decisions in your group? Consensus? Vote? How will
-you handle disagreements? ---SS\]]{style="color: blue"}
