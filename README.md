@@ -1,4 +1,4 @@
-# Project Name
+# SyncMaster
 
 Developer Names: Richard Fan, Kyle D'Souza, Mitchell Hynes, Akshit Gulia, Rafeed Iqbal
 

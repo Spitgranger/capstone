@@ -1,5 +1,3 @@
 # Problem Statement
 
-The folders and files for this folder are as follows:
-
-Describe ...
+Reference the [ProblemStatement.md](https://github.com/Spitgranger/capstone/blob/main/docs/ProblemStatementAndGoals/ProblemStatement.md) file
