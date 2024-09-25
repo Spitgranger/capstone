@@ -83,12 +83,42 @@ requests.
   
 # 7 Workflow Plan
 
--   How will you be using git, including branches, pull request, etc.?
+### Git Workflow
+For this project, Git Feature Branch workflow will be utilized for feature development. This strategy will enable the development of new features in isolated branches, enhancing collaboration and reducing the risk of introducing bugs in the main branch. In general branches will follow the naming convention of <type of branch>/<name of branch>. Some examples are given below:
+- `feature/<name of feature>`
+- `fix/<name of fix>`
+- `docs/<name of doc changed>`
 
--   How will you be managing issues, including template issues, issue
-    classification, etc.?
 
--   Use of CI/CD
+### Pull Requests
+Pull Requests (PRs) will be created by the collaborators of the project to merge their respective feature branches into the main branch. Upon opening a PR, a short description of what the changes are should be provided. PRs should be linked to at least one issue in the repository to ensure traceability of work. This workflow will ensure that minimal conflicts are introduced and also will reduce the probability of introducing bugs into the main branch. To merge a PR, it will need to be approved by at least one of the collaborators.
+
+### Github Project, Github Issues and Labels/Tags
+Github Projects along with Github Issues will be utilized for the management and tracking of tasks in this project. Github Projects will be used to track issues in Issues will be created with different custom predefined templates to standardize the process and save time containing the following details at a minimum:
+- An outline of what needs to be done
+- A soft deadline on when the work should be done
+- A short description of what it means for this issue to be done/closable
+
+
+Issues will be classified using the following labels (the following is subject to change):
+
+- Feature - For new development features
+- Documentation - For adding or modifying existing documentation
+- Bug - For fixing and tracking bugs
+- Chore - Simple tasks such as removing comments
+- Improvement - An improvement to the existing codebase (e.g. efficiency, complexity)
+
+A minimum of one person will be assigned to each issue.
+
+Additionally, custom issue templates will be used to streamline the process and to ensure all the necessary information is provided while creating the issue.
+
+Tags will be utilized to mark any significant releases (for example, “poc-release”)
+
+
+### CI/CD
+For continuous integration (CI), we will be using Github Actions Workflows which will involve running linters, tests (like unit tests) on the project. Additionally, actions will be created to automate builds and to ensure that no breaking changes are introduced via pull requests. We currently plan to start out by introducing an action to perform linting and formatting, as well as an action to perform unit testing. These actions will run anytime a pull request is made against the main branch. In the future, we plan to set up actions to automatically update dependencies to mitigate security risks.
+
+For continuous deployment (CD), we will create Github Actions for deploying the code into staging (testing) and production environments.
 
 # 8 Project Decomposition and Scheduling
 
