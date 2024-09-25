@@ -172,28 +172,47 @@ cohesion, low coupling and single responsibility.
 
 # Appendix --- Reflection
 
-The purpose of reflection questions is to give you a chance to assess
-your own learning and that of your group as a whole, and to find ways to
-improve in the future. Reflection is an important part of the learning
-process. Reflection is also an essential component of a successful
-software development process.
-
-Reflections are most interesting and useful when they're honest, even if
-the stories they tell are imperfect. You will be marked based on your
-depth of thought and analysis, and not based on the content of the
-reflections themselves. Thus, for full marks we encourage you to answer
-openly and honestly and to avoid simply writing "what you think the
-evaluator wants to hear."
-
-Please answer the following questions. Some questions can be answered on
-the team level, but where appropriate, each team member should write
-their own response:
-
 1.  Why is it important to create a development plan prior to starting
     the project?
 
+It is well known that figuring out what to do is harder than actually doing it.
+We have experienced this issue firsthand, and are aware of the value that a
+well-written development plan provides. We found that through the creation of
+the development plan, ambiguities surrounding the project became clearer. For
+example, we were able to identify strengths and weaknesses in the team’s skill
+set which allowed us to get started filling ourselves in on any knowledge gaps
+before starting the project. Additionally, creating this development plan
+allowed us to research potential technologies relevant to our project before
+starting, giving us time to think about alternatives and choose the best tools
+for the job. Finally, it encouraged us to start communication with our
+stakeholders and allowed us to develop some common ground about the project,
+especially when it came to expectations and goals. So in summary, creating a
+well structured and organized development plan allows everyone to stay on track
+and provides milestones to see if the project is progressing smoothly. It also
+gives an idea of what to expect for the project and helps align the team and
+stakeholders prior to starting a project.
+
 2.  In your opinion, what are the advantages and disadvantages of using
     CI/CD?
+
+CI/CD has several advantages but also has a couple of major disadvantages that
+are often not talked about. CI/CD makes development at every stage cyclical and
+reduces time between development cycles and release. The features such as the
+ability to set up pipelines to do automated continuous testing, builds, and
+deployments with every incremental change allows for flexibility in terms of
+catching errors and fixing them. This leads to improved quality as bugs can be
+caught early and fixed, reducing technical debt and putting the focus on current
+goal. CI/CD also perfectly compliments modern development ideologies such as
+scrum/agile which prioritize regular review and multiple iterations. However
+CI/CD also has several disadvantages, most notably giving developers a false
+sense of security when it comes to the correctness and quality of their code.
+This leads to developer “laziness”, an effect where developers are less likely
+to scrutinize and manually check what they have written. This is because the
+automated checks and builds are not perfect, but the illusion of them being
+perfect is there. Developers will often see that all checks have passed and
+assume that their code is correct, but this is false; checks passing do not
+necessitate correctness.
+
 
 3.  What disagreements did your group have in this deliverable, if any,
     and how did you resolve them?
