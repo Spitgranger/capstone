@@ -67,8 +67,8 @@ will be recorded by the capstone team.
 Meeting Chair: This position will coordinate meetings, ensure an agenda is set, 
 and that all parties are prepared for the meeting.
 
-Notetaker: They are responsible for the recording of meeting minutes and 
-ensuring that they are entered into GitHub.
+Developer: Lead developer for project, subject matter expert on technologies
+being used by the team.
 
 Project Manager: Responsible for ensuring that all team members are up to date 
 on work being performed and that action items for needed tasks are completed.
