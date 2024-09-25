@@ -1,5 +1,5 @@
 # Development Plan
-### Team 15, SyncMasters
+### Team 15, SyncMaster
 Mitchell Hynes\
 Richard Fan\
 Akshit Gulia\
@@ -11,8 +11,7 @@ Kyle D'Souza
   **Date** | **Developer(s)** | **Change** |
   -------- | ------------------ | ------------------------ |
   Sept 19, 2024    |  Richard Fan           | Conversion of tex to markdown |
-  Date2    |  Name(s)           |      Description of changes |
-  \...     |  \...              |      \... |
+  Sept 24, 2024    |  Whole Team          |      Initial development plan document completed |
 
 
 ## Introductory Blurb 
@@ -394,7 +393,7 @@ free time of the team members
 To make decisions, the group member who's role is to direct that task will
 organize the rest of the group around their respective action items. All team
 members will be able to contribute their opinion, and in general decisions will
-require a consensus amonngst the group. If an issue is not resolved through
+require a consensus amongst the group. If an issue is not resolved through
 discussion, it will be brought to the attention of the instructional team for
 mediation and feedback.
 

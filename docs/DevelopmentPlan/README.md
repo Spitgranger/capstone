@@ -1,5 +1,3 @@
 # Development Plan
 
-The folders and files for this folder are as follows:
-
-Describe ...
+Reference the [DevelopmentPlan.md](https://github.com/Spitgranger/capstone/blob/main/docs/DevelopmentPlan/DevelopmentPlan.md) file
