@@ -1,5 +1,5 @@
 # Development Plan
-### Team 15, SyncMasters
+### Team 15, SyncMaster
 Mitchell Hynes\
 Richard Fan\
 Akshit Gulia\
