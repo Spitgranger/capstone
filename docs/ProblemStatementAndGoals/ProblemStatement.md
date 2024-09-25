@@ -112,13 +112,37 @@ their own response:
 
 1.  What went well while writing this deliverable?
 
-Mitchell: 
-We had great and open communication with the City during this deliverable which greatly aided us in developing the problem statement.
-Our team effectively documented the actions we took and helped eachother learn how to use the git workflow for developing our project.
+* Sections were divided efficiently, and everyone was aligned on what was to be
+written and who would write each section.
+* We had great and open communication with the City during this deliverable
+which greatly aided us in developing the problem statement.
+* Our team effectively documented the actions we took and helped each other
+learn how to use the git workflow for developing our project.
+* Ample time was given to complete the deliverable.
+* Multiple meetings were set to review work and hold accountability for work
+done.
+* Everyone adhered to the self-imposed deadlines set for each section of the
+deliverable.
 
 2.  What pain points did you experience during this deliverable, and how
     did you resolve them?
 
+* Some members had a better idea of the problem space, while others were more
+familiar with the development of software solutions. We overcame this by dividing
+members between this deliverable and the Development Plan.
+* Version control does not allow live collaboration on written documents in the
+same way that Google Docs or Microsoft Word would. It was decided that the text
+for the different sections would be drafted on Google Docs before being committed
+to GitHub.
+
 3.  How did you and your team adjust the scope of your goals to ensure
     they are suitable for a Capstone project (not overly ambitious but
     also of appropriate complexity for a senior design project)?
+
+* To adjust the scope of the goals, we first discussed the project with the
+stakeholders to figure out what their main objectives were with the project. We
+then discussed as a team to figure out how to narrow these down to the most
+important and achievable goals and brought them back to the stakeholders to make
+sure they were acceptable. The goals we decided on are appropriate in complexity
+for a senior design project, are measurable, and focus on aspects of the system
+that are most important to the stakeholder.
