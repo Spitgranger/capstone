@@ -73,9 +73,12 @@ Depending on what is decided during the requirements gathering process, other st
 # 2 Goals
 | Goals | Rationale |
 | --- | --- |
-| | |
-| | |
-| | |
+| The system enables the synchronization of files across distributed consumers | This is a basic goal that must be achieved for the proposed system to be useful. This involves both file synchronization and conflict resolution. |
+| Intuitive GUI with high learnability. | The interface of the system should be easy to understand for first-time users as many of them will be contractors logging in for the first time. |
+| Safety of Client Documents | The application should ensure that the client’s internal documentation is secure. |
+| Accurate verification of users at stations | The application should be able to accurately verify that a user is at a specific station. This will provide visibility into who is at what station. |
+| Should integrate with current business practices of client. | The project aims to assist the stakeholders and provide value as a more efficient and secure method of completing existing tasks. It should not interfere with current business processes or create additional workload. |
+
 # 3 Stretch Goals
 | Goals | Rationale |
 | --- | --- |
