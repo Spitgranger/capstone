@@ -216,6 +216,14 @@ necessitate correctness.
 
 3.  What disagreements did your group have in this deliverable, if any,
     and how did you resolve them?
+    
+* We did not have many disagreements about this deliverable. One small
+disagreement was over the tech stack. We were debating whether to use Firebase
+or using AWS. The arguments in favour of Firebase were that from research it
+looks like it is easier to set up and easier for a complete beginner to use.
+The arguments in favour of AWS are that there are a couple of team members who
+are more familiar with it and have used it before. We voted and decided to go
+with AWS because some team members had experience with it.
 
 # Appendix --- Team Charter
 
