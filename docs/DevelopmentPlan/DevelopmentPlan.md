@@ -93,12 +93,13 @@ For this project, Git Feature Branch workflow will be utilized for feature devel
 ### Pull Requests
 Pull Requests (PRs) will be created by the collaborators of the project to merge their respective feature branches into the main branch. Upon opening a PR, a short description of what the changes are should be provided. PRs should be linked to at least one issue in the repository to ensure traceability of work. This workflow will ensure that minimal conflicts are introduced and also will reduce the probability of introducing bugs into the main branch. To merge a PR, it will need to be approved by at least one of the collaborators.
 
-### Github Project, Github Issues and Labels/Tags
-Github Projects along with Github Issues will be utilized for the management and tracking of tasks in this project. Github Projects will be used to track issues in Issues will be created with different custom predefined templates to standardize the process and save time containing the following details at a minimum:
+### Github Project, Github Issues, Github Milestones, and Labels/Tags
+Github Projects along with Github Issues will be utilized for the management and tracking of tasks in this project. Github Projects will be used to track issues. Our project will classify the status of the issue as: "No Status" (the issue has no status assigned to it), "Backlog" (we need to refine the issue by for example, adding more details to it issue before it is ready to be picked up), "Ready" (issue is ready to be picked up for development), "In Progress" (issue is currently in development), "In Review" (issue is currently under code review), "Done" (issue has been completed). Additionally, issues will be assigned one of the three priority levels: low, medium, and high. The issues will be created with different custom predefined templates to standardize the process and save time containing the following details at a minimum:
 - An outline of what needs to be done
 - A soft deadline on when the work should be done
 - A short description of what it means for this issue to be done/closable
 
+Github Milestones will be used to keep track of the changes which need to be done for the current/next deliverable.
 
 Issues will be classified using the following labels (the following is subject to change):
 
