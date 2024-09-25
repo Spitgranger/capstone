@@ -259,11 +259,15 @@ deliverables at a high quality of work.
 
 ### Attitude
 
-What are your team's expectations regarding team members' ideas,
-interactions with the team, cooperation, attitudes, and anything else
-regarding team member contributions? Do you want to introduce a code of
-conduct? Do you want a conflict resolution plan? Can adopt existing
-codes of conduct.
+Our team will be using the following as our code of conduct:
+
+- <i>Respect</i> - All team members are to be treated with respect and courtesy. Diverse contributions and perspectives of each team member are to be valued.
+- <i>Communication</i> - All team members are expected to communicate openly and honestly with use of clear and concise language to ensure no misunderstandings arise.
+- <i>Commitment</i> - All team members are expected to make an honest effort to attend all the meetings and complete all assigned tasks on time and to the best of their abilities.
+- <i>Integrity</i> - All team members are to uphold academic integrity and avoid plagiarism. Team members are also expected to be candid about their progress and any difficulties currently faced by them.
+
+<br>
+If any conflicts arise, team members are to first identify the issue by describing the problem clearly along with any relevant information. After the problem has been identified, a meeting will be held with the parties involved for an open discussion concerning the problem at hand. Each person in the meeting is encouraged to provide their insight. If necessary, a neutral third party will be involved. Once a mutually agreed solution is found, a document containing the record of the resolution and any action items will be created to ensure that all parties involved understand the agreement. Finally, the situation will be monitored until the issue is fully resolved.
 
 ### Stay on Track
 
