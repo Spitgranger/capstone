@@ -116,9 +116,23 @@ Final Documentation (Revision 1) <br> Due: April 2 |Start: March 10th. <br> E
 
 # 9 Proof of Concept Demonstration Plan
 
-What is the main risk, or risks, for the success of your project? What
-will you demonstrate during your proof of concept demonstration to
-convince yourself that you will be able to overcome this risk?
+One of the main goals for this project is contractor transparency and
+accountability when working on unsupervised city property. This leads us to one
+of the main risks of this project: ensuring that geolocation data provided by
+contractor devices is accurate enough for location verification. Our system
+plans on using contractor laptops to ensure that contractors are actually on
+site when they go through the process of reviewing and uploading documents. To
+do this, we have to ensure that the location reported by laptops is accurate up
+to 10m to accommodate for the smallest sites. However, since most laptops do not
+have GPS, the location may only be accurate to a few hundred metres, which could
+pose a problem when it comes to verifying contractor presence on site. To
+mitigate this risk, we plan on tying a mobile device with GPS into the system.
+We will use the user’s phone to provide us with more accurate location data. Our
+proof of concept will rely on demonstrating that a user’s location can be
+accurately and reliably given to the system through a simple scan of a QR code.
+The POC will then be as follows: a simple web application running on a laptop
+that allows users to view content only after their location is verified by
+scanning a QR code on their phone.
 
 # 10 Expected Technology
 
