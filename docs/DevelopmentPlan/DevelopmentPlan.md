@@ -175,8 +175,8 @@ cohesion, low coupling and single responsibility.
 1.  Why is it important to create a development plan prior to starting
     the project?
 
-It is well known that figuring out what to do is harder than actually doing it.
-We have experienced this issue firsthand, and are aware of the value that a
+* It is well known that figuring out what to do is harder than actually doing
+it. We have experienced this issue firsthand, and are aware of the value that a
 well-written development plan provides. We found that through the creation of
 the development plan, ambiguities surrounding the project became clearer. For
 example, we were able to identify strengths and weaknesses in the team’s skill
@@ -195,7 +195,7 @@ stakeholders prior to starting a project.
 2.  In your opinion, what are the advantages and disadvantages of using
     CI/CD?
 
-CI/CD has several advantages but also has a couple of major disadvantages that
+* CI/CD has several advantages but also has a couple of major disadvantages that
 are often not talked about. CI/CD makes development at every stage cyclical and
 reduces time between development cycles and release. The features such as the
 ability to set up pipelines to do automated continuous testing, builds, and
