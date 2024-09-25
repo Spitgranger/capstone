@@ -99,7 +99,7 @@ Github Projects along with Github Issues will be utilized for the management and
 - A soft deadline on when the work should be done
 - A short description of what it means for this issue to be done/closable
 
-Github Milestones will be used to keep track of the changes which need to be done for the current/next deliverable.
+Github Milestones will be used to keep track of the changes which need to be done for the current/next deliverable (e.g., "Dev Plan and Problem Statement" deliverable).
 
 Issues will be classified using the following labels (the following is subject to change):
 
