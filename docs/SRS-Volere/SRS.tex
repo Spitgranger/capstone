@@ -9,6 +9,7 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{hyperref}
+\usepackage{enumerate}
 \hypersetup{
     bookmarks=true,         % show bookmarks bar?
       colorlinks=true,      % false: boxed links; true: colored links
@@ -142,16 +143,37 @@ involved in the Project}
 
 \section{Usability and Humanity Requirements}
 \subsection{Ease of Use Requirements}
-\lips
+\begin{enumerate}[{UH-EU}1.]
+    \item Users between the ages of {MIN\_AGE} and {MAX\_AGE},
+      regardless of technical expertise, must be able to discover at least 70\% of
+      the web application functionality within 10 minutes of being introduced to
+      the system before any explaination.
+      Rationale: Usability is of high importance to the users of the system.
+      They will be mainly non-technical and must be able to learn and use the
+      system quickly if it is to be of any value to them.
+\end{enumerate}
 \subsection{Personalization and Internationalization Requirements}
 \lips
 \subsection{Learning Requirements}
-\lips
+\begin{enumerate}[{UH-LR}1.]
+    \item Users between the ages of {MIN\_AGE} and {MAX\_AGE} should not take
+      more than 10 minutes to a feature of the web application after it is
+      discovered.\\
+      Rationale: A well designed system should give the user the most amount of
+      functionality while being easy to understand. Users will be able to
+      productive with the system in a short amount of time, reducing
+      frustration.
+\end{enumerate}
 \subsection{Understandability and Politeness Requirements}
-\lips
+\begin{enumerate}[{UH-UP}1.]
+    \item The application must not contain symbols or allusions that
+      may be offensive or politically charged.\\
+      Rationale: As the system is to be used by people of diverse backgrounds
+      and in a professional setting, it is important to keep a professional and
+      neutural tone.
+\end{enumerate}
 \subsection{Accessibility Requirements}
 \lips
-
 \section{Performance Requirements}
 \subsection{Speed and Latency Requirements}
 \lips
