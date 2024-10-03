@@ -9,6 +9,7 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{hyperref}
+\usepackage{enumerate}
 \hypersetup{
     bookmarks=true,         % show bookmarks bar?
       colorlinks=true,      % false: boxed links; true: colored links
@@ -182,11 +183,39 @@ involved in the Project}
 
 \section{Maintainability and Support Requirements}
 \subsection{Maintenance Requirements}
-\lips
+\begin{enumerate} [{MS-MTN}1.]
+  \item A deployment of the system should take no more than 30 minutes (not
+  including testing, and building time).
+  \item The build time of the system should be no longer than 10 minutes (not
+  including testing time).
+  \item All automated tests should be able to run in under 10 minutes
+  \item The system should have rigourous unit testing, line coverage should be
+  $\ge$ 95\%, branch coverage should be $\ge$ 90\%.
+  \item All core functionalities of the system (i.e. Functional Requirements),
+  should have both automated end-to-end and unit testing corresponding to them
+  \item The project must be able to be maintained by its users, as original
+  developers will not be maintaining it after April 2, 2025.
+\end{enumerate}
 \subsection{Supportability Requirements}
-\lips
+\begin{enumerate} [{MS-SUP}1.]
+  \item The application should have user-facing documentation on how to use the
+  core functionalities of the system (i.e. functionalities described in
+  functional requirements).
+  \item The application should have documentation for all API's for future
+  maintainers.
+  \item The application should have documentation of internal functions and 
+  abstractions for future maintainers.
+  \item The application should have documentation on deployment, so users can
+  deploy this application for themselves.
+\end{enumerate}
 \subsection{Adaptability Requirements}
-\lips
+\begin{enumerate} [{MS-ADP}1.]
+  \item The application must be able to run on at least Google Chrome and
+  Microsoft Edge browsers.
+  \item The application must be able to run on tablets, smartphones, and
+  laptops.
+  \item The application must be able to run on Android, IOS, and Windows 10
+\end{enumerate}
 
 \section{Security Requirements}
 \subsection{Access Requirements}
