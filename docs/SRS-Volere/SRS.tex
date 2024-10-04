@@ -147,33 +147,51 @@ involved in the Project}
     \item Users between the ages of {MIN\_AGE} and {MAX\_AGE},
       regardless of technical expertise, must be able to discover at least 70\% of
       the web application functionality within 10 minutes of being introduced to
-      the system before any explaination.
-      Rationale: Usability is of high importance to the users of the system.
+      the system without any explaination or training.\\
+      \textbf{Rationale}: Usability is of high importance to the users of the system.
       They will be mainly non-technical and must be able to learn and use the
       system quickly if it is to be of any value to them.
+    \item The system should provide undo options or warnings for irreversible actions
+      and 95\% of users should successfully use these features when prompted.\\
+      \textbf{Rationale}: It is important to provide users of the systems with
+      confirmations or warnings to prevent errors and if they do happen, make it
+      easy to recover from them.
 \end{enumerate}
 \subsection{Personalization and Internationalization Requirements}
-\lips
+N/A
 \subsection{Learning Requirements}
 \begin{enumerate}[{UH-LR}1.]
     \item Users between the ages of {MIN\_AGE} and {MAX\_AGE} should not take
-      more than 10 minutes to a feature of the web application after it is
+      more than 10 minutes to a learn feature of the web application after it is
       discovered.\\
-      Rationale: A well designed system should give the user the most amount of
+      \textbf{Rationale}: A well designed system should give the user the most amount of
       functionality while being easy to understand. Users will be able to
       productive with the system in a short amount of time, reducing
       frustration.
+    \item Users between the ages of {MIN\_AGE} and {MAX\_AGE} should be able to 
+      complete the system onboarding tutorial or walkthrough within 5 minutes,
+      and 80\% of users should report feeling confident in using the system afterward.\\
+      \textbf{Rationale}: It is important that users are able to understand
+      system documentation quickly to reduce mental overhead and increase
+      productivity.
 \end{enumerate}
 \subsection{Understandability and Politeness Requirements}
 \begin{enumerate}[{UH-UP}1.]
     \item The application must not contain symbols or allusions that
       may be offensive or politically charged.\\
-      Rationale: As the system is to be used by people of diverse backgrounds
+      \textbf{Rationale}: As the system is to be used by people of diverse backgrounds
       and in a professional setting, it is important to keep a professional and
       neutural tone.
+    \item System error messages should clearly explain the issue and suggest a resolution
+      within 2 sentences. 90\% of users between the ages of {MIN\_AGE} and {MAX\_AGE}
+      should report understanding the error and being able to resolve the issue without
+      external support.\\
+      \textbf{Rationale}: Useful system feedback is crucial since users need to
+      know what the system is doing and how it interprets their input in order to
+      determine next steps.
 \end{enumerate}
 \subsection{Accessibility Requirements}
-\lips
+TBD may be in constraints.
 \section{Performance Requirements}
 \subsection{Speed and Latency Requirements}
 \lips
@@ -284,6 +302,9 @@ Inhibit the New Product}
 
 \newpage{}
 \section*{Appendix --- Reflection}
+\subsection{Symbolic Parameters}
+$\hypertarget{min_age}{MIN\_AGE}$ = 18\\
+$\hypertarget{min_age}{MAX\_AGE}$ = 70\\
 
 The information in this section will be used to evaluate the team members on the
 graduate attribute of Lifelong Learning.  Please answer the following questions:
