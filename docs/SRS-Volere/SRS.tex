@@ -153,12 +153,34 @@ involved in the Project}
 
 \section{Relevant Facts And Assumptions}
 \subsection{Relevant Facts}
-\lips
-\subsection{Business Rules}
-\lips
-\subsection{Assumptions}
-\lips
+\begin{itemize}
+    \item There are over 100 pumping stations throughout the City.
+    \item There are dozens of service contracts, and many contractors
+    and staff accessing stations each day.
+    \item Some stations are in remote locations and may have poor cell signal.
+    \item Some properties have multiple stations at the same site.
+    \item Certain stations have special entry procedures.
+\end{itemize}
 
+\subsection{Business Rules}
+\begin{itemize}
+    \item External contractors do not have access to the internal network.
+    \item Only authorized users can approve new procedures. 
+    \item There is work at stations performed through a work order
+    and routine work which doesn't have a work order.
+    \item Employee collective agreements have restrictions on the release of
+    GPS logs and video recording, which would require their approval.
+\end{itemize}
+\subsection{Assumptions}
+\begin{itemize}
+    \item Our project will focus on the application itself
+    and our team will implement an authentication system adequate for our
+    development. When the City integrates our application into their systems 
+    they would replace our authentication system with one that meets their 
+    detailed cybersecurity specifications.
+    \item The existing entry and exit procedure for stations is not modified
+    and our application will coexist with it.
+\end{itemize}
 \section{The Scope of the Work}
 \subsection{The Current Situation}
 \lips
