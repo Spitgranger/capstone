@@ -137,11 +137,11 @@ involved in the Project}
 \begin{itemize}
   \item Let \(U = \{u_1, u_2, \cdots, u_i\}\) be the set of users in the system.
   \item Let \(R = \{r_1, r_2, \cdots, r_r\}\) be the set of roles (e.g. manager,
-  contractor, subcontractor)
+  contractor, subcontractor).
   \item Let \(A = \{a_1, a_2, \cdots, a_s\}\) be the set of actions (e.g.
-    upload, authenticate, sign, view)
+    upload, authenticate, sign, view).
   \item Let \(C = \{c_1, c_2, \cdots, c_t\}\) be the set of compliance
-    requirements (e.g. safety training, hazard assesments)
+    requirements (e.g. safety training, hazard assesments).
   \item Let \(I = \{l_1, l_2, \cdots, l_q\}\) be the set of allowed locations.
   \item Let \(loc(u_i)\) represent the current location of user \(u_i\).
   \item Let \(D = \{d_1, d_2, \cdots, d_n\}\) be the set of documents.
@@ -149,18 +149,20 @@ involved in the Project}
     \(r_k \in R\).
   \item Let \(notify(u_m, u_i\) represent a notification from user \(u_m \in U\)
     to user \(u_i \in U\).
-  \item Let \(manages(u_m, u_i\) represent that user \(u_m \in U\)
+  \item Let \(manages(u_m, u_i)\) represent that user \(u_m \in U\)
     manages user \(u_i \in U\).
-  \item Let \(permitted(r_k, a_s, d_j\) represent that a user with role \(r_k \in R\)
+  \item Let \(permitted(r_k, a_s, d_j)\) represent that a user with role \(r_k \in R\)
     is permitted to perform action \(a_s \in A\) on document \(d_j \in D\)
-  \item Let \(requires(a_s, c_t\) represent that action \(a_s \in A\) requires
+  \item Let \(requires(a_s, c_t)\) represent that action \(a_s \in A\) requires
     compliance requirement \(c_t \in C\)
   \item Let \(T(u_i) \subset C\) represent the set of completed training for a
     user \(u_i \in U\).
   \item Let \(assoc(d_j, u_i)\) denote that document \(d_j\) is associated with
     user \(u_i\).
   \item Let \(upload(u_i, d_j)\) represent the action of user \(u_i \in U\)
-    uploading document \(d_j \in D\)
+    uploading document \(d_j \in D\).
+  \item Let \(performAction(u_i, a_s, d_j)\) represent that user \(u_i \in U\)
+    performs action \(a_s \in A\) on document \(d_j \in D\).
 \end{itemize}
 \subsection{Formal Expressions}
 \begin{enumerate}
