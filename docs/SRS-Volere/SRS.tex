@@ -10,6 +10,7 @@
 \usepackage{tabularx}
 \usepackage{hyperref}
 \usepackage{enumerate}
+\usepackage{amsmath}
 \hypersetup{
     bookmarks=true,         % show bookmarks bar?
       colorlinks=true,      % false: boxed links; true: colored links
@@ -60,53 +61,260 @@ Date 2 & 1.1 & Notes\\
 \lips
 \section{Stakeholders}
 \subsection{Client}
-\lips
+
+\begin{itemize}
+\item Matt Yakymyshyn (P.Eng)
+    \begin{itemize}
+        \item[-] Role: Senior Project Manager of Technical Services
+        \item[-] Interest: Team leader for the facilities team within
+        Technical Services who are the primary group responsible for 
+        maintaining facility infrastructure at pumping stations.
+        Primary contact at the City for the capstone team.
+    \end{itemize}
+\end{itemize}
+
 \subsection{Customer}
-\lips
+
+\begin{itemize}
+    \item Technical Services team
+    \begin{itemize}
+        \item[-] Role: Primary user within Hamilton Water
+        \item[-] Interest: As the primary stakeholder, the requirements 
+        of this project are aimed at their specific needs. Their main concern
+        is that station documentation is managed as a single source of truth,
+        and is easily distributed/retrieved with relevant parties.
+    \end{itemize} 
+\end{itemize}
 \subsection{Other Stakeholders}
-\lips
+
+\begin{itemize}
+    \item Supervisory Control and Data Acquisition (SCADA) team
+    \begin{itemize}
+        \item[-] Role: Responsible for the control system controlling
+        the treatment process.
+        \item[-] Interest: The SCADA team also manages contractors and is 
+        interested in accessing and updating documentation maintained 
+        in this system. 
+        \item[-] They will have valuable input regarding existing City 
+        platforms and technologies, as well as how technology can be 
+        integrated into pumping stations.
+    \end{itemize}
+    \item Corporate Security
+
+    \begin{itemize}
+        \item[-] Role: Pumping Station Security
+        \item[-] Interest: Provide feedback on any system involving station 
+        access.
+    \end{itemize}
+\end{itemize}
+
 \subsection{Hands-On Users of the Project}
-\lips
+\begin{itemize}
+    \item Facilities project managers
+    \begin{itemize}
+        \item[-] The facilities project managers will be using the application
+        daily to perform a variety of tasks. This includes verifying work was
+        performed by contractors, accessing station documentation to share with
+        contractors and internal staff, receiving signed forms and storing in a
+        manner which is associated to the signee, and other tasks.
+        They will have to be able to achieve all their needed requirements 
+        through the applications user interface, and will be a critical
+        stakeholder to receive feedback from through user testing.
+    \end{itemize}
+    \item Facilities co-op students
+    \begin{itemize}
+        \item[-] Facilities co-op students will be using the application to
+        physically authenticate on site when performing inspections, 
+        scoping work, and verifying completion of work.
+    \end{itemize}
+    \item Facilities contractors
+    \begin{itemize}
+        \item[-] Many contractors access pumping stations daily. They will
+        interact with the application each time they perform facilities related
+        work at the station. Interactions would include uploading and 
+        receiving documentation, and authenticating their presence on site 
+        to verify completion of work.
+        Contractors come from a wide range of backgrounds depending on their
+        trade, but are typically skilled workers in a particular field and are
+        of working age (18 - 65 years old).
+    \end{itemize}
+    \item Facilities sub-contractors
+    \begin{itemize}
+        \item[-] Many contractors employ sub-contractors as part of their work.
+        While these subcontractors work for the contractor who hired them, they
+        will still require access to the application to authenticate on site
+        and access site information. Their roles and interactions
+        will be similar to contractors, except they will be much less familiar
+        with the application and may only use it for a short duration as they 
+        are not regular workers.
+    \end{itemize}
+\end{itemize}
 \subsection{Personas}
-\lips
+
+\begin{itemize}
+    \item Greg: A facilities manager
+    \begin{itemize}
+        \item[-] Greg has a few tasks to complete this morning at work.
+        He sees that another department has requested compliance documentation 
+        on crane inspections for the ministry, so he signs onto SyncMaster to 
+        retrieve the current version of these documents for each of these sites.
+        While on the application, he receives a notification that a contractor 
+        he manages authenticated at site to complete a work order, but the 
+        application identified they had not completed their health and safety 
+        training. Greg prompts the system to issue this training to them, and 
+        runs a report on this contractor to see if any other employees of 
+        theirs require their training soon.
+    \end{itemize}
+    \item Nancy: A newly onboarded contractor
+    \begin{itemize}
+        \item[-] Nancy is a plumber who is servicing her first work order after 
+        being hired by ``Worldly Plumbing''.
+        Her company has notified her of the application she must use to 
+        authenticate for the work. When she authenticates, she is notified that 
+        the device she is servicing is located within a confined space
+        and that she must sign and return a hazard assessment form and proof 
+        of confined space training.
+    \end{itemize}
+\end{itemize}
 \subsection{Priorities Assigned to Users}
-\lips
+
+\begin{itemize}
+    \item Key users
+    \begin{itemize}
+        \item[-] Facilities managers. They are the primary stakeholder of the 
+        application and it is intended to be a tool to greatly improve the 
+        efficiency of their work.
+    \end{itemize}
+    \item Secondary users
+    \begin{itemize}
+        \item[-] Contractors. They will frequently use the system, but their 
+        needs are secondary to the key users.
+    \end{itemize}
+\end{itemize}
 \subsection{User Participation}
-\lips
+
+\begin{itemize}
+    \item Facilities managers will be frequently consulted throughout the 
+    duration of this project to demonstrate prototypes, receive feedback, 
+    and conduct user testing.
+    \item Co-op students can also be consulted for user testing.
+    They tend to have more availability for longer durations and will be able
+    to provide insight into how a less experienced user interacts with the 
+    system.
+
+\end{itemize}
 \subsection{Maintenance Users and Service Technicians}
-\lips
+The facilities managers will be responsible for ensuring that day-to-day data 
+is added to the application appropriately. The team does not have a dedicated
+software position, so maintainability of the technical aspects of the 
+application would need to be brought to the IT division of the City
+when the project reaches that stage.
 
 \section{Mandated Constraints}
 \subsection{Solution Constraints}
-\lips
+\begin{enumerate} [{C-SOL}1.]
+  \item System must be cloud-based to fit in with current existing systems at
+  the City of Hamilton.
+\end{enumerate}
+
 \subsection{Implementation Environment of the Current System}
-\lips
+To understand the current practices at the City of Hamilton see the
+\textit{Problem} section of the Problem Statement and Goals
+\href{https://github.com/Spitgranger/capstone/blob/main/docs/ProblemStatementAndGoals/ProblemStatement.md#11-problem}
+{here}.
+
 \subsection{Partner or Collaborative Applications}
-\lips
+N/A
 \subsection{Off-the-Shelf Software}
-\lips
+\begin{enumerate} [{C-OTS}1.]
+  \item The system must integrate with Sharepoint to synchronize documents in
+  Sharepoint with documents in the system.
+  \item The system must integrate with Infor EAM, to show the status of work
+  orders associated with a document.
+  \item The system must integrate with MySDS to show relevent relevant SDS
+  documents to users on a given site.
+\end{enumerate}
+
 \subsection{Anticipated Workplace Environment}
-\lips
+% TODO
+
 \subsection{Schedule Constraints}
-\lips
+\begin{enumerate} [{C-SCH}1.]
+  \item A requirement is to integrate with the Infor EAM system the city intends
+  on using however, this system will not be available until February 2025, so no
+  testing can be done on this system until then.
+
+  \item The project deadline is April 2, 2025.
+\end{enumerate}
+
 \subsection{Budget Constraints}
-\lips
+\begin{enumerate} [{C-BDG}1.]
+  \item Total expenses up until April 2, 2025 must not exceed \$750.
+\end{enumerate}
+
 \subsection{Enterprise Constraints}
-\lips
+N/A
 
 \section{Naming Conventions and Terminology}
 \subsection{Glossary of All Terms, Including Acronyms, Used by Stakeholders
 involved in the Project}
-\lips
+\begin{itemize}
+    \item BAS: Building Automation System.
+    \item BCOS: Beyond Compliance Operating System.
+    \item CMMS: Computerized Maintenance Management System.
+    \item Confined Space: A partially or fully enclosed space, not designed for 
+    continuous human occupancy, which has the potential for 
+    atmospheric hazards.
+    \item Controlled Space: A City defined space which has the potential to
+    become a confined space.
+    \item CSE: Confined Space Entry
+    \item Dry Well: A room which houses industrial equipment such as pumps 
+    and valves.
+    \item Hazard Assessment Form: A form outlining potential
+    hazards at a location.
+    \item Hot Works: Work which produces ignition sources.
+    Requires an accompanying hot works permit.
+    \item HVAC: Heating, Ventilation, and Air Conditiong.
+    \item Infor EAM: An Enterprise Asset Management system.
+    \item PMATS: Plant Maintenance and Technical Services.
+    \item PO: Purchase Order.
+    \item PPE: Personal Protective Equipment.
+    \item SCADA: Supervisory Control and Data Acquisition.
+    \item SDS: Safety Data Sheets.
+    \item Wet Well: A portion of a wastewater pumping station which receives
+    and temporarily stores wastewater.
+\end{itemize}
 
 \section{Relevant Facts And Assumptions}
 \subsection{Relevant Facts}
-\lips
-\subsection{Business Rules}
-\lips
-\subsection{Assumptions}
-\lips
+\begin{itemize}
+    \item There are over 100 pumping stations throughout the City.
+    \item There are dozens of service contracts, and many contractors
+    and staff accessing stations each day.
+    \item Some stations are in remote locations and may have poor cell signal.
+    \item Some properties have multiple stations at the same site.
+    \item Certain stations have special entry procedures.
+\end{itemize}
 
+\subsection{Business Rules}
+\begin{itemize}
+    \item External contractors do not have access to the internal network.
+    \item Only authorized users can approve new procedures. 
+    \item There is work at stations performed through a work order
+    and routine work which doesn't have a work order.
+    \item Employee collective agreements have restrictions on the release of
+    GPS logs and video recording, which would require their approval.
+\end{itemize}
+\subsection{Assumptions}
+\begin{itemize}
+    \item Our project will focus on the application itself
+    and our team will implement an authentication system adequate for our
+    development. When the City integrates our application into their systems 
+    they would replace our authentication system with one that meets their 
+    detailed cybersecurity specifications.
+    \item The existing entry and exit procedure for stations is not modified
+    and our application will coexist with it.
+\end{itemize}
 \section{The Scope of the Work}
 \subsection{The Current Situation}
 \lips
@@ -132,6 +340,66 @@ involved in the Project}
 \lips
 
 \section{Functional Requirements}
+\subsection{Formal Definitions}
+\begin{itemize}
+  \item Let \(U = \{u_1, u_2, \cdots, u_i\}\) be the set of users in the system.
+  \item Let \(R = \{r_1, r_2, \cdots, r_r\}\) be the set of roles (e.g. manager,
+  contractor, subcontractor).
+  \item Let \(A = \{a_1, a_2, \cdots, a_s\}\) be the set of actions (e.g.
+    upload, authenticate, sign, view).
+  \item Let \(C = \{c_1, c_2, \cdots, c_t\}\) be the set of compliance
+    requirements (e.g. safety training, hazard assesments).
+  \item Let \(I = \{l_1, l_2, \cdots, l_q\}\) be the set of allowed locations.
+  \item Let \(loc(u_i)\) represent the current location of user \(u_i\).
+  \item Let \(D = \{d_1, d_2, \cdots, d_n\}\) be the set of documents.
+  \item Let \(hasRole(u_i, r_k)\) represent that user \(u_i \in U\) has a role
+    \(r_k \in R\).
+  \item Let \(notify(u_m, u_i\) represent a notification from user \(u_m \in U\)
+    to user \(u_i \in U\).
+  \item Let \(manages(u_m, u_i)\) represent that user \(u_m \in U\)
+    manages user \(u_i \in U\).
+  \item Let \(permitted(r_k, a_s, d_j)\) represent that a user with role \(r_k \in R\)
+    is permitted to perform action \(a_s \in A\) on document \(d_j \in D\)
+  \item Let \(requires(a_s, c_t)\) represent that action \(a_s \in A\) requires
+    compliance requirement \(c_t \in C\)
+  \item Let \(T(u_i) \subset C\) represent the set of completed training for a
+    user \(u_i \in U\).
+  \item Let \(assoc(d_j, u_i)\) denote that document \(d_j\) is associated with
+    user \(u_i\).
+  \item Let \(upload(u_i, d_j)\) represent the action of user \(u_i \in U\)
+    uploading document \(d_j \in D\).
+  \item Let \(performAction(u_i, a_s, d_j)\) represent that user \(u_i \in U\)
+    performs action \(a_s \in A\) on document \(d_j \in D\).
+\end{itemize}
+\subsection{Formal Expressions}
+\begin{enumerate}
+  \item \(\forall u_i \in U, \forall d_j \in D, \forall r_k \in R, \forall a_s
+    \in A: \)
+    \begin{align*}
+      hasRole(u_i, r_k) \land permitted(r_k, a_s, d_j) \implies performAction(u_i, a_s, d_j)
+    \end{align*}
+  \item \(\forall u_i \in U, \forall c_t \in C:\)
+    \begin{align*}
+      (requires(a_s, c_t) \land a_s = sign \implies (c_t \in T(u_i)) \implies
+      performAction(u_i, a_s, d_j))
+    \end{align*}
+  \item \(\forall u_i \in U, \forall d_j \in D:\)
+    \begin{align*}
+      (loc(u_i) \in L) \implies upload(u_i, d_j)
+    \end{align*}
+  \item \(\forall u_i \in U, \forall d_j \in D:\)
+    \begin{align*}
+      (loc(u_i) \notin L) \implies \lnot upload(u_i, d_j)
+    \end{align*}
+  \item \(\forall u_i \in U, \forall d_j \in D:\)
+    \begin{align*}
+      sign(u_i, d_j) \implies assoc(d_j, u_i)
+    \end{align*}
+  \item \(\forall u_i \in U, \forall c_t \in C, \forall u_m \in U:\)
+    \begin{align*}
+      (manages(u_m, u_i) \land c_t \notin T(u_i)) \implies notify(u_m, u_i)
+    \end{align*}
+\end{enumerate}
 \subsection{Functional Requirements}
 \lips
 
@@ -143,16 +411,55 @@ involved in the Project}
 
 \section{Usability and Humanity Requirements}
 \subsection{Ease of Use Requirements}
-\lips
+\begin{enumerate}[{UH-EU}1.]
+    \item Users between the ages of {MIN\_AGE} and {MAX\_AGE},
+      regardless of technical expertise, must be able to discover at least 70\% of
+      the web application functionality within 10 minutes of being introduced to
+      the system without any explaination or training.\\
+      \textbf{Rationale}: Usability is of high importance to the users of the system.
+      They will be mainly non-technical and must be able to learn and use the
+      system quickly if it is to be of any value to them.
+    \item The system should provide undo options or warnings for irreversible actions
+      and 95\% of users should successfully use these features when prompted.\\
+      \textbf{Rationale}: It is important to provide users of the systems with
+      confirmations or warnings to prevent errors and if they do happen, make it
+      easy to recover from them.
+\end{enumerate}
 \subsection{Personalization and Internationalization Requirements}
-\lips
+N/A
 \subsection{Learning Requirements}
-\lips
+\begin{enumerate}[{UH-LR}1.]
+    \item Users between the ages of {MIN\_AGE} and {MAX\_AGE} should not take
+      more than 10 minutes to a learn feature of the web application after it is
+      discovered.\\
+      \textbf{Rationale}: A well designed system should give the user the most amount of
+      functionality while being easy to understand. Users will be able to
+      productive with the system in a short amount of time, reducing
+      frustration.
+    \item Users between the ages of {MIN\_AGE} and {MAX\_AGE} should be able to 
+      complete the system onboarding tutorial or walkthrough within 5 minutes,
+      and 80\% of users should report feeling confident in using the system afterward.\\
+      \textbf{Rationale}: It is important that users are able to understand
+      system documentation quickly to reduce mental overhead and increase
+      productivity.
+\end{enumerate}
 \subsection{Understandability and Politeness Requirements}
-\lips
+\begin{enumerate}[{UH-UP}1.]
+    \item The application must not contain symbols or allusions that
+      may be offensive or politically charged.\\
+      \textbf{Rationale}: As the system is to be used by people of diverse backgrounds
+      and in a professional setting, it is important to keep a professional and
+      neutural tone.
+    \item System error messages should clearly explain the issue and suggest a resolution
+      within 2 sentences. 90\% of users between the ages of {MIN\_AGE} and {MAX\_AGE}
+      should report understanding the error and being able to resolve the issue without
+      external support.\\
+      \textbf{Rationale}: Useful system feedback is crucial since users need to
+      know what the system is doing and how it interprets their input in order to
+      determine next steps.
+\end{enumerate}
 \subsection{Accessibility Requirements}
-\lips
-
+TBD may be in constraints.
 \section{Performance Requirements}
 \subsection{Speed and Latency Requirements}
 \lips
@@ -244,11 +551,20 @@ involved in the Project}
 
 \section{Off-the-Shelf Solutions}
 \subsection{Ready-Made Products}
-\lips
+Currently there exist many document management systems (i.e. Google Docs,
+Sharepoint). However, They miss some of the clients major requirements. The
+city wants to be able to integrate with their work order management system to
+show the status of a work order that is associated with any given document,
+but existing solutions do not provide this capability. They also want to be
+able to verify that people were at a given site, when completing work, which
+again there isn't a ready made product to do.
 \subsection{Reusable Components}
-\lips
+We can use Sharepoint as file storage, since the city wants Sharepoint and this
+system to be in sync, and storing the files in two seperate locations and then
+syncing them will introduce a lot of overhead. Instead, all files can just be
+stored on Sharepoint.
 \subsection{Products That Can Be Copied}
-\lips
+N/A
 
 \section{New Problems}
 \subsection{Effects on the Current Environment}
@@ -303,9 +619,22 @@ Project deliverables should be completed by the deadlines given in the course ou
 
 \section{Migration to the New Product}
 \subsection{Requirements for Migration to the New Product}
-\lips
+\begin{enumerate} [{MI-NP}1.]
+  \item The system must be compatible with existing user roles in Active
+    Directory.\\
+    \textbf{Rationale}: Compatibility with existing business rules is needed
+    to ensure migration can be completed in a short period of time without
+    having to defined new roles.
+\end{enumerate}
+
 \subsection{Data That Has to be Modified or Translated for the New System}
-\lips
+\begin{enumerate} [{MI-TR}1.]
+  \item Information stored on paper must be digitized for consumption for the
+    system.\\
+    \textbf{Rationale}: Some content that the system is to consume has not yet
+    been digitized. It will have to be digitized before the system is able to
+    use it.
+\end{enumerate}
 
 \section{Costs}
 The cost for the application should not exceed \$750 unless approved by the professor and
@@ -336,6 +665,9 @@ It is expected that the team will spend 40 man-hours per week on the project unt
 
 \newpage{}
 \section*{Appendix --- Reflection}
+\subsection{Symbolic Parameters}
+$\hypertarget{min_age}{MIN\_AGE}$ = 18\\
+$\hypertarget{min_age}{MAX\_AGE}$ = 70\\
 
 The information in this section will be used to evaluate the team members on the
 graduate attribute of Lifelong Learning.  Please answer the following questions:
