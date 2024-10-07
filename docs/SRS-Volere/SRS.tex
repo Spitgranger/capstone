@@ -253,17 +253,14 @@ involved in the Project}
 \section{New Problems}
 \subsection{Effects on the Current Environment}
 \begin{enumerate} [{}1.]
-  \item The application should not create redundant workload for tasks already 
-  carried out by existing solutions.
-  \item 
+  \item The application should recognize and interact with existing systems in a way that complements rather than competes with them. It should leverage existing data and processes instead of recreating or duplicating them.
+  It should only introduce new workflows or tasks when no suitable existing solution is in place.
+  \item If an existing business process can handle a particular task more effectively, the application should delegate that task rather than attempt to perform it redundantly.
 \end{enumerate}
 \subsection{Effects on the Installed Systems}
 \begin{enumerate} [{}1.]
-  \item The application should not affect the system it is being run on other 
-  than taking in the required inputs and providing the appropriate outputs.
-  \item The application should not affect the systems it is interfacing with
-   other than retrieving
-data, and sending data if necessary.
+  \item The application should not change or interfere with the host system's configuration, performance, or files except for the necessary input and output operations.
+  \item When interacting with other systems, the application should only retrieve necessary data and send data if required, but only as specified, without altering or influencing the external systems' operations or configurations.
 \end{enumerate}
 \subsection{Potential User Problems}
 \begin{enumerate} [{}1.]
