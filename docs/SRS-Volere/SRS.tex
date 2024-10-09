@@ -5,7 +5,7 @@
 %
 % Risks are removed because they are covered by the Hazard Analysis
 \documentclass[12pt]{article}
-
+\usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{hyperref}
@@ -324,13 +324,87 @@ involved in the Project}
 \end{itemize}
 \section{The Scope of the Work}
 \subsection{The Current Situation}
-\lips
+The process currently employed by the stakeholder is predominantly a manual one.
+Currently, contractor management is a time-consuming and manual effort. The 
+following list identifies the current situation faced by the City:
+\begin{itemize}
+\item To distribute new or revised documentation to contractors, the City sends 
+the documents manually through email. There are no automated processes in place
+and this work flow is done manually for each document. There are dozens of
+contractors which these documents need to be distributed to, and those
+contractors themselves also change over time. The list of these contractors is
+also managed manually.
+
+\item Verification of work performed by contractors currently requires
+a physical visit to site. There is no automated process to collect information 
+such as photos of the work performed, other than manually through email.
+\item It is currently difficult to know whether the labour cost
+billed by the contractors on their invoices is reflective of the actual work
+performed, as that information is only recorded in a physical logbook at each
+site and is not electronic. A contractor could overcharge for the work and it
+would be difficult to prove that their bill is inaccurate.
+
+\end{itemize}
+
 \subsection{The Context of the Work}
-\lips
+The below figure illustrates a high-level context model of the adjacent systems:
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{4G06A-context-model.png}
+\caption{Context model}
+\end{figure}
+
 \subsection{Work Partitioning}
-\lips
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Event Name} & \textbf{Input and Output} \\
+\hline
+1. Contractor Login & Contractor email and one time password (in) \\
+\hline
+2. Contractor Location Verification & GPS location (in) \\
+\hline
+3. Staff Login & Staff email and password (in) \\
+\hline
+4. Sign Document & unsigned document (in), signed document (out) \\
+\hline
+5. Upload Report & report file (in) \\
+\hline
+6. Export Reports & report specifications (in), report data (out)\\
+\hline
+7. View Station Entry Protocols & Station location (in), entry protocol (out)\\
+\hline
+8. Add Contractor to System & Contractor information (in) \\
+\hline
+9. View Contractor Summary & Contractor name (in), contractor data (out) \\
+\hline
+10. Certification Expiry & notice of document expiration to staff (out) \\
+\hline
+\end{tabular}
+
 \subsection{Specifying a Business Use Case (BUC)}
-\lips
+The below points identify the business use cases for each of the
+business events by number in section 6.3.\\
+
+\begin{enumerate}
+\item Contractor authenticates themselves to City systems, proving that they 
+are authorized to be provided City information.\\
+\item Contractor proves they are at a site for transparency when work is being 
+completed.\\
+\item Staff authenticates themselves as authorized to view private data.\\
+\item Sign a document for contractual or regulatory purposes.\\
+\item Documents are stored for record keeping and relevant stakeholders 
+are notified as necessary.\\
+\item Export data of a specific type specified by the user. For example, all 
+crane inspections in the last year.\\
+\item View a procedure of how staff and contractors must access a specified 
+station.\\
+\item New contractors are frequently onboarded, and their information is 
+recorded by the facilities managers.\\
+\item Facilities managers commonly need to see which employees of a contractor 
+are due for their health and safety training, WSIB expiry, etc.\\
+\item When a piece of documentation has expired, the next version needs to be 
+put in place by staff to replace the expired version.\\
+\end{enumerate}
 
 \section{Business Data Model and Data Dictionary}
 \subsection{Business Data Model}
