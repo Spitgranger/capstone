@@ -392,8 +392,10 @@ N/A.
   \item Let \(D = \{d_1, d_2, \cdots, d_n\}\) be the set of documents.
   \item Let \(hasRole(u_i, r_k)\) represent that user \(u_i \in U\) has a role
     \(r_k \in R\).
-  \item Let \(notify(u_m, u_i\) represent a notification from user \(u_m \in U\)
+  \item Let \(notify(u_m, u_i)\) represent a notification from user \(u_m \in U\)
     to user \(u_i \in U\).
+  \item Let \(notify(u_i)\) represent a notification from the system to user 
+    \(u_i \in U\)
   \item Let \(manages(u_m, u_i)\) represent that user \(u_m \in U\)
     manages user \(u_i \in U\).
   \item Let \(permitted(r_k, a_s, d_j)\) represent that a user with role \(r_k \in R\)
@@ -408,6 +410,8 @@ N/A.
     uploading document \(d_j \in D\).
   \item Let \(performAction(u_i, a_s, d_j)\) represent that user \(u_i \in U\)
     performs action \(a_s \in A\) on document \(d_j \in D\).
+  \item Let \(expired(c_i)\) represent that compliance document \(c_i \in C\)
+    has expired.
 \end{itemize}
 \subsection{Formal Expressions}
 \begin{enumerate}
@@ -437,6 +441,10 @@ N/A.
     \begin{align*}
       (manages(u_m, u_i) \land c_t \notin T(u_i)) \implies notify(u_m, u_i)
     \end{align*}
+  \item \(\forall u_i \in U, \forall c_t \in C\)
+    \begin{align*}
+      (expired(c_t) \implies notify(u_i))
+    \end{align*}
 \end{enumerate}
 \subsection{Functional Requirements}
 \begin{enumerate} [{FR}1.]
@@ -450,9 +458,27 @@ N/A.
         Only Admin users should be able to change access permissions of other users and
         have read and write accesses to all documents in the system.
         Contractors/general users should only have read access to documents and be able
-        to sign documents.
+        to sign documents. See (1) in \textbf{Section 9.2 Formal Expressions}.
   \item The current site, work order number, job details, and entry/exit time of 
         contractors should be visible to admin users in the system.
+  \item The system must implement a form of geolocation verification before
+        contractors are able to authenticate and upload documents. See (3) and
+        (4) in \textbf{Section 9.2 Formal Expressions}.
+  \item The system must notify users when a complicance document has expired.
+        See (7) in \textbf{Section 9.2 Formal Expressions}.
+  \item The system must store the date, time, name of person, and name of
+        document when a user acknowledges a document. See (5) in
+        \textbf{Section 9.2 Formal Expressions}.
+  \item The system must notify the manager of a contractor when a contractor
+        attempts to authenticate and upload documents at a particular site prior to
+        completion of required training. See (6) in
+        \textbf{Section 9.2 Formal Expressions}.
+  \item The system must prevent a user from authenticating or uploading
+        documents if the required training for the specific site is not complete.
+        See (2) in \textbf{Section 9.2 Formal Expressions}.
+
+
+
 \end{enumerate}
 
 \section{Look and Feel Requirements}
