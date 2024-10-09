@@ -333,12 +333,50 @@ involved in the Project}
 
 \section{The Scope of the Product}
 \subsection{Product Boundary}
-\lips
-\subsection{Product Use Case Table}
-\lips
-\subsection{Individual Product Use Cases (PUC's)}
-\lips
 
+The table below displays aspects of the application which are in scope and
+aspects which are out of scope. \\
+
+\begin{tabular}{|p{0.45\linewidth}|p{0.45\linewidth}|}
+\hline
+\textbf{In Scope} & \textbf{Out of Scope} \\ 
+\hline
+Designing the application in a way where it is able to interact with the 
+external work order system is a stretch goal.& Designing any aspects of a full 
+work order system is out of scope for this project. \\
+\hline
+The application will implement an authentication system sufficient to 
+demonstrate contractors authenticating themselves onto sites. & A thorough 
+cybersecurity analysis for the authentication is not in scope as it is not the 
+primary focus for the applications functionality. \\
+\hline
+\end{tabular}
+
+\subsection{Product Use Case Table}
+
+\begin{tabular}{|p{0.45\linewidth}|p{0.45\linewidth}|}
+\hline
+\textbf{User}& \textbf{Use Case} \\ 
+\hline
+Facilities Manager & - View contractor authentication data to determine that
+a contractor was at a particular location and completed the work expected
+and invoiced accordingly. \\
+& - Generate a report of compliance documentation in the system for easy
+sharing to relevant third parties. \\
+& - Manage the health and safety documentation and training status of
+their contracts.\\
+\hline
+Contractors & - Authenticate their arrival to site to confirm work is being
+performed.\\
+& - Access station entry and exit procedures, hazard forms, and other safety
+information which should be known when accessing the station.\\
+& - Sign and acknowledge forms and return them to the City.\\
+& - Upload photographs, documents, and comments about work done at the station. \\
+\hline
+\end{tabular}
+
+\subsection{Individual Product Use Cases (PUC's)}
+N/A.
 \section{Functional Requirements}
 \subsection{Formal Definitions}
 \begin{itemize}
