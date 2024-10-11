@@ -1,10 +1,10 @@
-name: run-linters
+name: run-latex-linter
 on:
   pull_request:
     types: [opened, reopened, synchronize]
     paths: ["docs/**/**.tex"]
 jobs:
-  run-linter:
+  run-latex-linter:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
