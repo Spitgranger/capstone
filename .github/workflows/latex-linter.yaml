@@ -1,0 +1,13 @@
+name: run-latex-linter
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+    paths: ["docs/**/**.tex"]
+jobs:
+  run-latex-linter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions-rust-lang/setup-rust-toolchain@v1
+      - run: cargo install tex-fmt
+      - run: tex-fmt --check ./docs/**/**.tex
