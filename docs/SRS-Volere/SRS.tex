@@ -430,9 +430,113 @@ business events by number in section 6.3.\\
 
 \section{Business Data Model and Data Dictionary}
 \subsection{Business Data Model}
-\lips
+\begin{figure}[h]
+      \includegraphics[width=1\textwidth]{4G06A-data-model.png}
+      \caption{Data Model}
+    \end{figure}
+    
 \subsection{Data Dictionary}
-\lips
+\textbf{Classes}
+\begin{itemize}
+  \item  User
+    \begin{itemize}
+      \item This class represents a user of the portal
+      \item \textbf{Attributes:}
+          \begin{itemize}
+            \item userData: UserData -- It is the data related to the user in question
+          \end{itemize}
+
+      \item \textbf{Relationships:}
+          \begin{itemize}
+            \item A User can view and sign multiple Document objects (many-to-many relationship)
+            \item A User has a UserData object storing information about the user in question (one-to-one relationship)
+          \end{itemize}
+
+      \item \textbf{Sub-Classes:}
+          \begin{itemize}
+            \item AdminUser
+            \item ManagerUser
+            \item GeneralUser
+          \end{itemize}
+  \end{itemize}
+  \item AdminUser
+    \begin{itemize}
+      \item This class is a sub-class of User class which reprsents an admin user of the portal
+      \item \textbf{Attributes:}
+      \begin{itemize}
+        \item Same as User class
+      \end{itemize}
+      \item \textbf{Relationships:}
+      \begin{itemize}
+        \item An AdminUser can view and edit other users data (many-to-many relationship)
+        \item An AdminUser can edit multiple documents (many-to-many relationship) 
+      \end{itemize}
+    \end{itemize}
+
+    \item ManagerUser
+    \begin{itemize}
+      \item This class is a sub-class of User class which reprsents a user who holds a manager position
+      \item \textbf{Attributes:}
+      \begin{itemize}
+        \item Same as User class
+      \end{itemize}
+      \item \textbf{Relationships:}
+      \begin{itemize}
+        \item An AdminUser can view other users data (many-to-many relationship)
+        \item An AdminUser can edit multiple documents (many-to-many relationship) 
+      \end{itemize}
+    \end{itemize}
+
+    \item GeneralUser
+    \begin{itemize}
+      \item This class is a sub-class of User class which reprsents a general user of the poral (such as a someone from the city staff or a contractor)
+      \item \textbf{Attributes:}
+      \begin{itemize}
+        \item Same as User class
+      \end{itemize}
+      \item \textbf{Relationships:}
+      \begin{itemize}
+        \item Same as User class
+      \end{itemize}
+    \end{itemize}
+
+
+    \item Document
+    \begin{itemize}
+      \item This class represents a document stored on the portal
+      \item \textbf{Attributes:}
+      \begin{itemize}
+        \item id: int -- The id of the document
+        \item category: String -- The category of the document (such as "health and safety")
+        \item name: String -- The name of the document (such as "first aid instructions")
+      \end{itemize}
+      \item \textbf{Relationships:}
+      \begin{itemize}
+        \item A Document can be viewed and signed by many User objects (many-to-many relationship)
+        \item A Document can be edited by many AdminUser and ManagerUser objects (many-to-many relationship)
+      \end{itemize}
+    \end{itemize}
+    
+
+    \item UserData
+    \begin{itemize}
+      \item This class represents the information of a given user
+      \item \textbf{Attributes:}
+      \begin{itemize}
+        \item id: int -- The id of the document
+        \item name: String -- The name of the user
+        \item emailAddress: String -- The email address of the user
+      \end{itemize}
+      \item \textbf{Relationships:}
+      \begin{itemize}
+        \item A UserData object is linked to one User object (one-to-one relationship)
+        \item UserData objects of given users can be accessed by many AdminUser objects (many-to-many relationship)
+        \item UserData objects of given users can be accessed by many ManagerUser objects (many-to-many relationship)
+      \end{itemize}
+    \end{itemize}
+
+
+\end{itemize}
 
 \section{The Scope of the Product}
 \subsection{Product Boundary}
