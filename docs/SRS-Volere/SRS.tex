@@ -659,19 +659,46 @@ N/A
 TBD may be in constraints.
 \section{Performance Requirements}
 \subsection{Speed and Latency Requirements}
-\lips
+\begin{enumerate}[{PR-SL}1.]
+\item Average time for retrieving the documents should not exceed 2 seconds
+\item Synching documents with SharePoint should be completed in less than 7 seconds for file sizes up to 15 MB 
+\item The portal's user interface should be responsive and should react accordingly with the user interactions.
+\end{enumerate}
 \subsection{Safety-Critical Requirements}
-\lips
+\begin{enumerate}[{PR-SC}1.]
+  \item All documents should be verified for integrity during upload and retrieval
+  \item Document acesss restriction should be based on user roles
+  \end{enumerate}
 \subsection{Precision or Accuracy Requirements}
-\lips
+\begin{enumerate}[{PR-PA}1.]
+  \item Search queries related to documents or user data should return at least 95\% relevant results
+  \item A data integrity of 99.99\% should be maintained to ensure no corruption or data loss during upload or retrieval
+  \end{enumerate}
+
 \subsection{Robustness or Fault-Tolerance Requirements}
-\lips
+\begin{enumerate}[{PR-RFT}1.]
+  \item The system should handle unexpected inputs and events without crashing
+  \item The system should be able to detect and alert on any anomalies or potential failures
+  \end{enumerate}
+
+
 \subsection{Capacity Requirements}
-\lips
+\begin{enumerate}[{PR-CR}1.]
+  \item The system should be able to support peak data transfer rate of 1 Gbps for document uploads and downloads
+  \item The system should be able to support individual file sizes up to 1GB
+  \end{enumerate}
+
 \subsection{Scalability or Extensibility Requirements}
-\lips
+\begin{enumerate}[{PR-SE}1.]
+  \item The system should allow nesting of n number of documents and categories. For example, document category A can have 5 documents and sub document category B under it. (which in turn has sub-categories of documents under it).
+  \item The system should be able to distribute traffic evenly and avoid single points of failures
+  \end{enumerate}
+
 \subsection{Longevity Requirements}
-\lips
+\begin{enumerate}[{PR-LR}1.]
+  \item The system should have a modular design to easily allow the introduction of new features
+  \end{enumerate}
+
 
 \section{Operational and Environmental Requirements}
 \subsection{Expected Physical Environment}
