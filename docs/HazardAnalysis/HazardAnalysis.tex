@@ -3,6 +3,7 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{hyperref}
+\usepackage{graphicx}
 
 \hypersetup{
   colorlinks=true,       % false: boxed links; true: colored links
@@ -56,7 +57,11 @@
 
 \section{Introduction}
 
-\wss{You can include your definition of what a hazard is here.}
+Hazards can be defined as either a state of the system or an action
+taken on the system, which causes system failures. System failures
+include, but are not limited to, an inability of the system to
+perform its required functions, loss of data, unauthorized access,
+or harm to users.
 
 \section{Scope and Purpose of Hazard Analysis}
 
@@ -94,6 +99,52 @@ requirements.}
 \wss{If no safety requirement can be devised, other mitigation strategies can be
   entered in the table, including strategies involving providing additional
 documentation, and/or test cases.}
+
+\begin{table}
+  \scalebox{0.6}{
+    \begin{tabular}{|>{\raggedright}p{2.0cm}|>{\raggedright}p{2.0cm}|>{\raggedright}p{2.5cm}|>{\raggedright}p{4cm}|>{\raggedright}p{3cm}|>{\raggedright}p{4cm}|>{\raggedright}p{1.5cm}|p{1.5cm}|}
+      \hline
+      \textbf{Design Function} & \textbf{Failure Modes} & \textbf{Effects
+      of Failure} & \textbf{Causes of Failure} & \textbf{Detection} &
+      \textbf{Recommended Actions} & \textbf{SR} & \textbf{Ref.} \\
+      \hline
+      Geo-blocking & Geolocation is inaccurate & Contractor may be on
+      site, but unable to follow entry/exit protocols & a. GPS
+      Signal Blocked \newline b. Use of inaccurate Geolocation API
+      \newline c. Out of date third-party databases \newline d.
+      Device does not have a GPS \newline e. VPN usage & Error
+      messages and logging & a. Report inaccurate location detection
+      to manager & SR-AR1 & H1-1 \\
+      \hline
+      User Authentication & Unauthorized Access & Comprimises system
+      security & a. Weak protocols for user authentication &
+      Geo-blocking & a. Require multi-factor authentication \newline
+      b. limit login attempts & SR-AR1 & H2-1 \\
+      \cline{2-8}
+      & User has higher access level than they should & User may be
+      able to view or edit documents they should not be able to
+      causing security concerns & a. Permission issue from database
+      failure & detailed logs of all views and edits to documents
+      from within the system & a. Allow administrator to adjust
+      permissions & SR-AR2 \newline SR-AR3 \newline SR-IR1 & H2-2 \\
+      \hline
+      View Station Entry Protocols & Contractor Views Old Version of
+      Entry Protocols & Contractor may view and abide by out-of-date
+      and incorrect station entry protocols & a. Database Error &
+      Send all documents that a contractor viewed to their manager
+      for verification upon completion & a. Reupload newer version of
+      entry protocol documents & SR-IR2 & H3-1 \\
+      \cline{2-8}
+      & Contractor Unable to Sign Documents & Contractor cannot start
+      doing their work as they are unable to complete appropriate
+      documentation & a. Permission issue from database failure &
+      Error messages and logging & a. Allow administrator to adjust
+      permissions & SR-AR1 \newline SR-AR4 & H3-2 \\
+      \hline
+    \end{tabular}
+  }
+  \caption{Failure Mode and Effect Analysis (FMEA) Table}
+\end{table}
 
 \section{Safety and Security Requirements}
 
