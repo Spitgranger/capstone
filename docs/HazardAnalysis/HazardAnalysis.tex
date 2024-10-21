@@ -172,11 +172,13 @@ documentation, and/or test cases.}
       \newline b. User does not agree to sign the document & Application detects
       unsuccessful acknowledgement state & a. Notify user and log failure &
       FR7 & H5-1 \\
+      \cline{2-8}
       & Device loses power and interrupts the acknowledgement & Acknowledgement
-      is not received by the system & a. Document is not acknowledged &
-      Loss of power disconnects users from the application & Server side
+      is not received by the system &
+      a. Loss of power disconnects users from the application & Server side
       detects user disconnection & a. Save the application state and return 
       user to previous state when they reconnect & FR7 & H5-2 \\
+      \hline
     \end{tabular}
   }
   \caption{Failure Mode and Effect Analysis (FMEA) Table}
