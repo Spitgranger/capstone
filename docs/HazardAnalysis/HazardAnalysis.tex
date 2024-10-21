@@ -166,6 +166,17 @@ documentation, and/or test cases.}
       File upload fails & a. System connection interruption &
       Error messages and logging of file name & a. Notify user & PR-SC1 & H4-5\\
       \hline
+      Contractor acknowledges document & Contractor does not acknowledge
+      correctly and it is not saved to the system & Acknowledgement not received
+      & a. User does not understand feedback from the application interface
+      \newline b. User does not agree to sign the document & Application detects
+      unsuccessful acknowledgement state & a. Notify user and log failure &
+      FR7 & H5-1 \\
+      & Device loses power and interrupts the acknowledgement & Acknowledgement
+      is not received by the system & a. Document is not acknowledged &
+      Loss of power disconnects users from the application & Server side
+      detects user disconnection & a. Save the application state and return 
+      user to previous state when they reconnect & FR7 & H5-2 \\
     \end{tabular}
   }
   \caption{Failure Mode and Effect Analysis (FMEA) Table}
