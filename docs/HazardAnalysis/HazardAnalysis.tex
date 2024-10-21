@@ -4,6 +4,7 @@
 \usepackage{tabularx}
 \usepackage{hyperref}
 \usepackage{graphicx}
+\usepackage{enumerate}
 
 \hypersetup{
   colorlinks=true,       % false: boxed links; true: colored links
@@ -188,6 +189,16 @@ documentation, and/or test cases.}
 
 \wss{Newly discovered requirements.  These should also be added to the SRS.  (A
 rationale design process how and why to fake it.)}
+\begin{enumerate}[{SR}1.]
+  \item The system shall notify the facilities manager if a contractor declines
+    to sign a document.\\
+    \newline Rationale: The facilities manager should be aware if
+    their contractor
+    declines to sign a document. This creates a health and safety concern.\\
+    \newline Fit criterion: The facilities manager receives a
+    notification from the
+    application identifying the contractor and the document.
+\end{enumerate}
 
 \section{Roadmap}
 
